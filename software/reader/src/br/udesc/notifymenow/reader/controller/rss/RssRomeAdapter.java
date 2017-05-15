@@ -5,7 +5,7 @@
  */
 package br.udesc.notifymenow.reader.controller.rss;
 
-import br.udesc.notifymenow.reader.model.Feed;
+import br.udesc.notifymenow.reader.model.Noticia;
 import com.sun.syndication.feed.synd.SyndEntryImpl;
 import com.sun.syndication.fetcher.FeedFetcher;
 import com.sun.syndication.fetcher.impl.HashMapFeedInfoCache;
@@ -27,12 +27,12 @@ import java.util.logging.Logger;
 public class RssRomeAdapter implements RssReader {
 
     @Override
-    public List<Feed> retrieve(String url) {
+    public List<Noticia> retrieve(String url) {
         return retrieve(url, true);
     }
 
     @Override
-    public List<Feed> retrieve(String url, boolean cache) {
+    public List<Noticia> retrieve(String url, boolean cache) {
         SyndFeed response = requestFeed(url, cache);
         return parseFeed(response);
     }
@@ -54,13 +54,13 @@ public class RssRomeAdapter implements RssReader {
         return null;
     }
 
-    private List<Feed> parseFeed(SyndFeed response) {
-        List<Feed> feeds = new ArrayList<>();
+    private List<Noticia> parseFeed(SyndFeed response) {
+        List<Noticia> feeds = new ArrayList<>();
 
         for (Object entry : response.getEntries()) {
             SyndEntryImpl requestFeed = (SyndEntryImpl) entry;
 
-            Feed feed = new Feed();
+            Noticia feed = new Noticia();
             feed.setConteudo(requestFeed.getDescription().getValue());
             feed.setTitulo(requestFeed.getTitle());
             feed.setLink(requestFeed.getLink());

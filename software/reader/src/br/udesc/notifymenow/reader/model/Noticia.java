@@ -11,7 +11,7 @@ import java.util.Date;
  *
  * @author Ricardo Augusto Küstner
  */
-public class Feed {
+public class Noticia {
 
     private int id;
     private String titulo;

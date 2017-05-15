@@ -7,7 +7,7 @@ package br.udesc.notifymenow.reader;
 
 import br.udesc.notifymenow.reader.controller.rss.RssReaderFactory;
 import br.udesc.notifymenow.reader.controller.rss.RssReader;
-import br.udesc.notifymenow.reader.model.Feed;
+import br.udesc.notifymenow.reader.model.Noticia;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
@@ -21,9 +21,9 @@ public class Main {
     public static void main(String[] args) throws MalformedURLException {
         RssReader reader = RssReaderFactory.getRssReader();
 
-        List<Feed> resposta = reader.retrieve("http://www.valor.com.br/rss");
+        List<Noticia> resposta = reader.retrieve("http://www.valor.com.br/rss");
 
-        for (Feed feed : resposta) {
+        for (Noticia feed : resposta) {
             System.out.println(feed.getTitulo());
             System.out.println(feed.getConteudo());
             System.out.println(feed.getLink());
