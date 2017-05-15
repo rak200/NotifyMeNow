@@ -3,14 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.udesc.notifymenow.service;
+package br.udesc.notifymenow.reader.controller.rss;
 
 /**
  *
  * @author Ricardo Augusto Küstner
  */
-public class Main {
+public class RssReaderFactory {
 
-    public static void main(String[] args) {
+    public static RssReader getRssReader() {
+        return new RssRomeAdapter();
     }
 }

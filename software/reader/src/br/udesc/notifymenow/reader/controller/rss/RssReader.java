@@ -5,7 +5,8 @@
  */
 package br.udesc.notifymenow.reader.controller.rss;
 
-import java.net.URL;
+import br.udesc.notifymenow.reader.model.Feed;
+import java.util.List;
 
 /**
  *
@@ -16,14 +17,16 @@ public interface RssReader {
     /**
      * retrieve posts and prevent from furure requests to return de same data
      * @param url URL from RSS origin
+     * @return
      */
-    public void retrieve(URL url);
+    public List<Feed> retrieve(String url);
 
     /**
      * retrieve posts.
      * @param url URL from RSS origin
      * @param cache determine if future requests will get the same data
+     * @return
      */
-    public void retrieve(URL url, boolean cache);
+    public List<Feed> retrieve(String url, boolean cache);
 
 }
