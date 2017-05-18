@@ -1,0 +1,4 @@
+mai 17, 2017 9:26:25 PM br.udesc.notifymenow.reader.util.Seeder checkDb
+GRAVE: Criando base de dados!
+mai 17, 2017 9:26:26 PM br.udesc.notifymenow.reader.util.Seeder checkDb
+GRAVE: Base de dados criada!
