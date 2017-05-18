@@ -22,7 +22,7 @@ public class LogConfig {
         FileHandler arquivo;
 
         try {
-            arquivo = new FileHandler("log/log%u.txt");
+            arquivo = new FileHandler("log/log%u.txt", true);
             logger.addHandler(arquivo);
             logger.setLevel(Level.ALL);
             arquivo.setFormatter(new SimpleFormatter());
