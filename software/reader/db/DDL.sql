@@ -13,7 +13,7 @@ create table site
 )
 ;
 
-create table feed
+create table noticia
 (
 	idnoticia integer primary key,
 	idsite integer not null,
@@ -21,7 +21,7 @@ create table feed
 	conteudo text,
 	data datetime not null,
 	link text not null,
-	constraint fk_noticia_site foreign key (idsite) references feed (idsite) 
+	constraint fk_noticia_site foreign key (idsite) references site (idsite) 
 )
 ;
 

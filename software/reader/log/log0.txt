@@ -2,3 +2,11 @@ mai 17, 2017 9:26:25 PM br.udesc.notifymenow.reader.util.Seeder checkDb
 GRAVE: Criando base de dados!
 mai 17, 2017 9:26:26 PM br.udesc.notifymenow.reader.util.Seeder checkDb
 GRAVE: Base de dados criada!
+mai 19, 2017 7:25:58 PM br.udesc.notifymenow.reader.util.Seeder checkDb
+DETALHADO: Criando base de dados!
+mai 19, 2017 7:25:59 PM br.udesc.notifymenow.reader.util.Seeder checkDb
+DETALHADO: Base de dados criada!
+mai 19, 2017 9:12:28 PM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Criando base de dados!
+mai 19, 2017 9:12:29 PM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Base de dados criada!

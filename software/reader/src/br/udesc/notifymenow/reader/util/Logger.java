@@ -5,7 +5,6 @@
  */
 package br.udesc.notifymenow.reader.util;
 
-import br.udesc.notifymenow.reader.Main;
 import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
@@ -15,7 +14,7 @@ import java.util.logging.SimpleFormatter;
  *
  * @author Ricardo Augusto Küstner
  */
-public class LogConfig {
+public class Logger {
 
     public static void defineLogger() {
         java.util.logging.Logger logger = java.util.logging.Logger.getLogger("Reader");
@@ -27,7 +26,20 @@ public class LogConfig {
             logger.setLevel(Level.ALL);
             arquivo.setFormatter(new SimpleFormatter());
         } catch (IOException | SecurityException ex) {
-            java.util.logging.Logger.getLogger("Reader").log(Level.SEVERE, null, ex);
+            error(ex);
         }
     }
+
+    public static void error(Exception ex) {
+        java.util.logging.Logger.getLogger("Reader").log(Level.SEVERE, null, ex);
+    }
+
+    public static void error(String msg) {
+        java.util.logging.Logger.getLogger("Reader").log(Level.SEVERE, msg);
+    }
+
+    public static void info(String msg) {
+        java.util.logging.Logger.getLogger("Reader").log(Level.INFO, msg);
+    }
+
 }

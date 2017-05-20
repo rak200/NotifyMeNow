@@ -6,6 +6,7 @@
 package br.udesc.notifymenow.reader.controller.rss;
 
 import br.udesc.notifymenow.reader.model.Noticia;
+import br.udesc.notifymenow.reader.util.Logger;
 import com.sun.syndication.feed.synd.SyndEntryImpl;
 import com.sun.syndication.fetcher.FeedFetcher;
 import com.sun.syndication.fetcher.impl.HashMapFeedInfoCache;
@@ -17,8 +18,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -48,7 +47,7 @@ public class RssRomeAdapter implements RssReader {
         try {
             return feedFetcher.retrieveFeed(new URL(url));
         } catch (IllegalArgumentException | IOException | FeedException | FetcherException ex) {
-            Logger.getLogger(RssRomeAdapter.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.error(ex);
         }
 
         return null;

@@ -5,13 +5,11 @@
  */
 package br.udesc.notifymenow.reader;
 
-import br.udesc.notifymenow.reader.util.Conexao;
-import br.udesc.notifymenow.reader.util.LogConfig;
+import br.udesc.notifymenow.reader.model.dao.conexao.Conexao;
+import br.udesc.notifymenow.reader.util.Logger;
 import java.net.MalformedURLException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -20,7 +18,7 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args) throws MalformedURLException {
-        LogConfig.defineLogger();
+        Logger.defineLogger();
 
 //        RssReader reader = RssReaderFactory.getRssReader();
 
@@ -49,7 +47,7 @@ public class Main {
                 System.out.println("id = " + rs.getInt("idassunto"));
             }
         } catch (SQLException ex) {
-            Logger.getLogger("Reader").log(Level.SEVERE, null, ex);
+            Logger.error(ex);
         }
     }
 }
