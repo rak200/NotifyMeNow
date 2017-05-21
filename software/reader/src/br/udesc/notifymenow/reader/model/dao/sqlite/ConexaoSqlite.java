@@ -7,6 +7,7 @@ package br.udesc.notifymenow.reader.model.dao.sqlite;
 
 import br.udesc.notifymenow.reader.util.FileUtil;
 import br.udesc.notifymenow.reader.util.Logger;
+import br.udesc.notifymenow.reader.util.Property;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -17,9 +18,9 @@ import java.sql.Statement;
  *
  * @author Ricardo Augusto Küstner
  */
-public class ConexaoSqlite implements br.udesc.notifymenow.reader.model.dao.conexao.ConexaoDb {
+public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.ConexaoDb {
 
-    public static final String DB_FILE = "db/nmn.db";
+    public static final String DB_FILE = Property.get("db_path") + "/nmn.db";
 
     private final String DB_DRIVER = "jdbc:sqlite";
 

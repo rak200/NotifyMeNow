@@ -21,7 +21,7 @@ public class Logger {
         FileHandler arquivo;
 
         try {
-            arquivo = new FileHandler("log/log%u.txt", true);
+            arquivo = new FileHandler(Property.get("log_path") + "/log%u.txt", true);
             logger.addHandler(arquivo);
             logger.setLevel(Level.ALL);
             arquivo.setFormatter(new SimpleFormatter());

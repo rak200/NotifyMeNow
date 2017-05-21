@@ -10,3 +10,25 @@ mai 19, 2017 9:12:28 PM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Criando base de dados!
 mai 19, 2017 9:12:29 PM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Base de dados criada!
+mai 21, 2017 3:35:57 PM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+java.sql.SQLException: path to '../db/nmn.db': 'D:\Ricardo\Documents\Trabalho\NotifyMeNow\software\reader\..\db' does not exist
+	at org.sqlite.core.CoreConnection.open(CoreConnection.java:192)
+	at org.sqlite.core.CoreConnection.<init>(CoreConnection.java:76)
+	at org.sqlite.jdbc3.JDBC3Connection.<init>(JDBC3Connection.java:26)
+	at org.sqlite.jdbc4.JDBC4Connection.<init>(JDBC4Connection.java:24)
+	at org.sqlite.SQLiteConnection.<init>(SQLiteConnection.java:45)
+	at org.sqlite.JDBC.createConnection(JDBC.java:114)
+	at org.sqlite.JDBC.connect(JDBC.java:88)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:270)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.<init>(ConexaoSqlite.java:30)
+	at br.udesc.notifymenow.reader.model.dao.conexao.Conexao.<init>(Conexao.java:22)
+	at br.udesc.notifymenow.reader.model.dao.conexao.Conexao.<init>(Conexao.java:17)
+	at br.udesc.notifymenow.reader.model.dao.conexao.Conexao$ConexaoHolder.<clinit>(Conexao.java:31)
+	at br.udesc.notifymenow.reader.model.dao.conexao.Conexao.getInstance(Conexao.java:26)
+	at br.udesc.notifymenow.reader.Main.teste(Main.java:39)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:34)
+
+mai 21, 2017 5:01:52 PM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: Banco de dados sqlite não definido!

@@ -5,7 +5,7 @@
  */
 package br.udesc.notifymenow.reader;
 
-import br.udesc.notifymenow.reader.model.dao.conexao.Conexao;
+import br.udesc.notifymenow.reader.util.conexao.Conexao;
 import br.udesc.notifymenow.reader.util.Logger;
 import java.net.MalformedURLException;
 import java.sql.ResultSet;
