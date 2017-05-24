@@ -5,7 +5,7 @@
  */
 package br.udesc.notifymenow.admin.view;
 
-import br.udesc.notifymenow.reader.model.Assunto;
+import br.udesc.notifymenow.reader.model.Site;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
@@ -13,54 +13,53 @@ import javax.swing.table.AbstractTableModel;
  *
  * @author Wagner
  */
-public class ModelGridAssunto extends AbstractTableModel{
+public class GridSite extends AbstractTableModel {
 
-     private ArrayList<Assunto> assuntos = new ArrayList<Assunto>();
+    private ArrayList<Site> sites = new ArrayList<Site>();
     
     @Override
     public int getRowCount() {
-        return assuntos.size();
+        return sites.size();
     }
 
     @Override
     public int getColumnCount() {
-       return 1;
+        return 2;
     }
-    
-   
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-      Assunto assunto = assuntos.get(rowIndex);
+       Site site = sites.get(rowIndex);
         switch (columnIndex) {
             case 0: {
-                return assunto.getNome();
+                return site.getNome();
+            }
+            case 1: {
+                return site.getLink();
             }
           
         }
         return null;
+   
     }
-       
-
-    public void limpar() {
-        assuntos.clear();
+    
+     public void limpar() {
+        sites.clear();
     }
 
-    public void removeAssunto(int posicao) {
-        assuntos.remove(posicao);
+    public void removeSite(int posicao) {
+        sites.remove(posicao);
         fireTableRowsDeleted(posicao, posicao);
     }
 
-    public Assunto getAssunto(int posicao) {
-        return assuntos.get(posicao);
+    public Site getSite(int posicao) {
+        return sites.get(posicao);
     }
 
-    public void addAssunto(Assunto assunto) {
-        assuntos.add(assunto);
-        fireTableRowsInserted(assuntos.size() - 1, assuntos.size() - 1);
+    public void addSite(Site site) {
+        sites.add(site);
+        fireTableRowsInserted(sites.size() - 1, sites.size() - 1);
     }
 
 }
-
-
 

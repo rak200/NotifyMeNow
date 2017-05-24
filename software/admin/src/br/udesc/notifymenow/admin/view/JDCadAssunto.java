@@ -9,12 +9,12 @@ package br.udesc.notifymenow.admin.view;
  *
  * @author Wagner
  */
-public class FCadAssunto extends javax.swing.JDialog {
+public class JDCadAssunto extends javax.swing.JDialog {
 
     /**
      * Creates new form FCadAssunto
      */
-    public FCadAssunto(java.awt.Frame parent, boolean modal) {
+    public JDCadAssunto(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }

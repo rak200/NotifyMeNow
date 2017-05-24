@@ -9,12 +9,12 @@ package br.udesc.notifymenow.admin.view;
  *
  * @author Wagner
  */
-public class FGridFeed extends javax.swing.JDialog {
+public class JDGridFeed extends javax.swing.JDialog {
 
     /**
      * Creates new form FGridFeed
      */
-    public FGridFeed(java.awt.Frame parent, boolean modal) {
+    public JDGridFeed(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }

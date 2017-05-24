@@ -9,12 +9,12 @@ package br.udesc.notifymenow.admin.view;
  *
  * @author Wagner
  */
-public class FHorario extends javax.swing.JDialog {
+public class JDHorario extends javax.swing.JDialog {
 
     /**
      * Creates new form FCadHorario
      */
-    public FHorario(java.awt.Frame parent, boolean modal) {
+    public JDHorario(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
