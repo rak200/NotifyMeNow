@@ -19,17 +19,48 @@ public class ModelGridAssunto extends AbstractTableModel{
     
     @Override
     public int getRowCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return assuntos.size();
     }
 
     @Override
     public int getColumnCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       return 1;
     }
+    
+   
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      Assunto assunto = assuntos.get(rowIndex);
+        switch (columnIndex) {
+            case 0: {
+                return assunto.getNome();
+            }
+          
+        }
+        return null;
     }
-    
+       
+
+    public void limpar() {
+        assuntos.clear();
+    }
+
+    public void removeAssunto(int posicao) {
+        assuntos.remove(posicao);
+        fireTableRowsDeleted(posicao, posicao);
+    }
+
+    public Assunto getAssunto(int posicao) {
+        return assuntos.get(posicao);
+    }
+
+    public void addAssunto(Assunto assunto) {
+        assuntos.add(assunto);
+        fireTableRowsInserted(assuntos.size() - 1, assuntos.size() - 1);
+    }
+
 }
+
+
+

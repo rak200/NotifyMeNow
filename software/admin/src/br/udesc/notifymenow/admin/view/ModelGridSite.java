@@ -19,17 +19,47 @@ public class ModelGridSite extends AbstractTableModel {
     
     @Override
     public int getRowCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return sites.size();
     }
 
     @Override
     public int getColumnCount() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return 2;
     }
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       Site site = sites.get(rowIndex);
+        switch (columnIndex) {
+            case 0: {
+                return site.getNome();
+            }
+            case 1: {
+                return site.getLink();
+            }
+          
+        }
+        return null;
+   
     }
     
+     public void limpar() {
+        sites.clear();
+    }
+
+    public void removeSite(int posicao) {
+        sites.remove(posicao);
+        fireTableRowsDeleted(posicao, posicao);
+    }
+
+    public Site getSite(int posicao) {
+        return sites.get(posicao);
+    }
+
+    public void addSite(Site site) {
+        sites.add(site);
+        fireTableRowsInserted(sites.size() - 1, sites.size() - 1);
+    }
+
 }
+
