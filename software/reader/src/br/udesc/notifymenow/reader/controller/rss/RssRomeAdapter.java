@@ -17,6 +17,8 @@ import com.sun.syndication.io.FeedException;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -33,7 +35,12 @@ public class RssRomeAdapter implements RssReader {
     @Override
     public List<Noticia> retrieve(String url, boolean cache) {
         SyndFeed response = requestFeed(url, cache);
-        return parseFeed(response);
+        return parseFeed(response, null);
+    }
+
+    public List<Noticia> retrieve(String url, Date date) {
+        SyndFeed response = requestFeed(url, false);
+        return parseFeed(response, date);
     }
 
     private SyndFeed requestFeed(String url, boolean cache) {
@@ -53,19 +60,25 @@ public class RssRomeAdapter implements RssReader {
         return null;
     }
 
-    private List<Noticia> parseFeed(SyndFeed response) {
+    private List<Noticia> parseFeed(SyndFeed response, Date date) {
         List<Noticia> feeds = new ArrayList<>();
 
-        for (Object entry : response.getEntries()) {
-            SyndEntryImpl requestFeed = (SyndEntryImpl) entry;
+        Iterator list = response.getEntries().iterator();
 
-            Noticia feed = new Noticia();
-            feed.setConteudo(requestFeed.getDescription().getValue());
-            feed.setTitulo(requestFeed.getTitle());
-            feed.setLink(requestFeed.getLink());
-            feed.setData(requestFeed.getPublishedDate());
+        while (list.hasNext()) {
+            SyndEntryImpl requestFeed = (SyndEntryImpl) list.next();
 
-            feeds.add(feed);
+            if (date == null || date.before(requestFeed.getPublishedDate())) {
+                Noticia feed = new Noticia();
+                feed.setConteudo(requestFeed.getDescription().getValue());
+                feed.setTitulo(requestFeed.getTitle());
+                feed.setLink(requestFeed.getLink());
+                feed.setData(requestFeed.getPublishedDate());
+
+                feeds.add(feed);
+            } else {
+                break;
+            }
         }
 
         return feeds;
