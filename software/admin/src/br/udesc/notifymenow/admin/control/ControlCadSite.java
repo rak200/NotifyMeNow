@@ -5,10 +5,13 @@
  */
 package br.udesc.notifymenow.admin.control;
 
+import br.udesc.notifymenow.admin.view.GridSite;
 import br.udesc.notifymenow.admin.view.JDCadSite;
 import br.udesc.notifymenow.admin.view.JFPrincipal;
 import br.udesc.notifymenow.reader.model.Site;
 import br.udesc.notifymenow.reader.model.dao.SiteDao;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 /**
@@ -17,20 +20,63 @@ import java.util.ArrayList;
  */
 public class ControlCadSite {
     
-    private JDCadSite cadSite;
+    private JDCadSite jdCadSite;
     private Site site;
     private SiteDao siteDao;
+    private GridSite grid;
     private ArrayList<Site> sites = new ArrayList<>();
   
 
     public ControlCadSite() {
-        cadSite = new JDCadSite(null, true);
+        jdCadSite = new JDCadSite(null, true);
         site = new Site();
+        grid = new GridSite();
         siteDao = new br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao();
+        iniciazaComponenter();
        
     }
-    
+    public void iniciazaComponenter(){
+        jdCadSite.tbSites.setModel(grid);
+        jdCadSite.btAdicionar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               gravar();
+            }
+        });
+        
+        jdCadSite.btAlterar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               alterar();
+            }
+        });
+        jdCadSite.btExcluir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               excluir();
+            }
+        });
+        jdCadSite.btLimpar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               limpar();
+            }
+        });
+        
+    }
     public void executar(){
-        cadSite.setVisible(true);
+        jdCadSite.setVisible(true);
+    }
+    
+    public void gravar(){
+        
+    }
+    
+    public void alterar(){}
+    public void excluir(){}
+    
+    public void limpar(){
+         jdCadSite.tfNome.setText(null);
+         jdCadSite.tfLink.setText(null);
     }
 }

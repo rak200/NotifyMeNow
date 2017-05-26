@@ -199,7 +199,7 @@ public class JDCadSite extends javax.swing.JDialog {
     public javax.swing.JLabel jLabel3;
     public javax.swing.JScrollPane jScrollPane1;
     public java.awt.Panel panel1;
-    private javax.swing.JTable tbSites;
+    public javax.swing.JTable tbSites;
     public javax.swing.JTextField tfLink;
     public javax.swing.JTextField tfNome;
     // End of variables declaration//GEN-END:variables

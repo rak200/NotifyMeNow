@@ -19,41 +19,41 @@ import java.util.ArrayList;
  * @author Wagner
  */
 public class ControlCadAssunto {
-    private JDCadAssunto cadAssunto;
+    private JDCadAssunto jdCadAssunto;
     private GridAssunto grid;
     private Assunto assunto;
     private AssuntoDao assuntoDao;
     private ArrayList<Assunto> assuntos = new ArrayList<>();
 
     public ControlCadAssunto() {
-        cadAssunto = new JDCadAssunto(null, true);
+        jdCadAssunto = new JDCadAssunto(null, true);
         grid = new GridAssunto();
         assuntoDao = new br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao();
         inicializaComponentes();
     }
     private void inicializaComponentes() {
-        cadAssunto.tbDescricao.setModel(grid);
-        cadAssunto.btAdicionar.addActionListener(new ActionListener() {
+        jdCadAssunto.tbDescricao.setModel(grid);
+        jdCadAssunto.btAdicionar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                gravar();
             }
         });
         
-        cadAssunto.btEditar.addActionListener(new ActionListener() {
+        jdCadAssunto.btEditar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 alterar();
             }
         });
-         cadAssunto.btExcluir.addActionListener(new ActionListener() {
+         jdCadAssunto.btExcluir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 excluir();
             }
         });
          
-         cadAssunto.btPesquisar.addActionListener(new ActionListener() {
+         jdCadAssunto.btPesquisar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 pesquisar();
@@ -63,7 +63,7 @@ public class ControlCadAssunto {
 
     }
     public void executar(){
-        cadAssunto.setVisible(true);
+        jdCadAssunto.setVisible(true);
     }
     
     public void gravar(){

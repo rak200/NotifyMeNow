@@ -6,6 +6,8 @@
 package br.udesc.notifymenow.admin.control;
 
 import br.udesc.notifymenow.admin.view.JDHorario;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  *
@@ -13,15 +15,46 @@ import br.udesc.notifymenow.admin.view.JDHorario;
  */
 public class ControlHorario {
     
-    JDHorario horario;
+    JDHorario jdHorario;
     
     public ControlHorario(){
-      horario = new JDHorario(null, true);  
+      jdHorario = new JDHorario(null, true);  
+      inicializaComponentes();
     }
     
     public void executar(){
+     
+      jdHorario.setVisible(true);  
       
-      horario.setVisible(true);  
+    }
+    
+    public void inicializaComponentes(){
+        jdHorario.btSalvar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               gravar();
+            }
+        });
+        
+         jdHorario.btCancelar.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               cancelar();
+            }
+        });
+    }
+    
+    public void gravar(){}
+    
+    public void cancelar(){
+        limpar();
+        jdHorario.btCancelar.setEnabled(true);
+        jdHorario.setVisible(false);
+    }
+    
+     private void limpar() {
+         jdHorario.tfHorario.setText(null);
+        
     }
     
 }

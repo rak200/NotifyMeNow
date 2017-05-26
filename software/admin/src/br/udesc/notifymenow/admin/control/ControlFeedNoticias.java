@@ -5,7 +5,12 @@
  */
 package br.udesc.notifymenow.admin.control;
 
+import br.udesc.notifymenow.admin.view.GrigFeedNoticias;
 import br.udesc.notifymenow.admin.view.JDFeedNoticias;
+import br.udesc.notifymenow.reader.model.Noticia;
+import br.udesc.notifymenow.reader.model.dao.NoticiaDao;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 
 /**
@@ -14,15 +19,36 @@ import br.udesc.notifymenow.admin.view.JDFeedNoticias;
  */
 public class ControlFeedNoticias {
 
-    JDFeedNoticias feed;
+    JDFeedNoticias jdFeed;
+    Noticia noticia;
+    GrigFeedNoticias grid;
+    NoticiaDao noticiaDao;
     
     
     public ControlFeedNoticias() {
-        feed = new JDFeedNoticias(null, true);      
+        jdFeed = new JDFeedNoticias(null, true);   
+        grid = new GrigFeedNoticias();
+        noticia = new Noticia();
+        noticiaDao = new br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao();
+        inicializaComponentes();
     }
+    
+    public void inicializaComponentes(){
+        jdFeed.tbNoticias.setModel(grid);
+        jdFeed.btCheck.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+               check();
+            }
+        });
+        
+        
+    }
+    
+    public void check(){}
     
     public void executar(){
 
-        feed.setVisible(true);
+        jdFeed.setVisible(true);
     }
 }
