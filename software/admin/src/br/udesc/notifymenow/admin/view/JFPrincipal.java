@@ -16,6 +16,7 @@ public class JFPrincipal extends javax.swing.JFrame {
      */
     public JFPrincipal() {
         initComponents();
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -28,20 +29,37 @@ public class JFPrincipal extends javax.swing.JFrame {
     private void initComponents() {
 
         jMenuItem3 = new javax.swing.JMenuItem();
+        jdpPrincipal = new java.awt.Panel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu3 = new javax.swing.JMenu();
         mFeedNoticias = new javax.swing.JMenuItem();
         jMenu1 = new javax.swing.JMenu();
         mCadSite = new javax.swing.JMenuItem();
         mCadAssunto = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        mPesquisarSite = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         mHorario = new javax.swing.JMenuItem();
 
         jMenuItem3.setText("jMenuItem3");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jdpPrincipal.setBackground(new java.awt.Color(204, 204, 255));
+        jdpPrincipal.addComponentListener(new java.awt.event.ComponentAdapter() {
+            public void componentResized(java.awt.event.ComponentEvent evt) {
+                jdpPrincipalComponentResized(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jdpPrincipalLayout = new javax.swing.GroupLayout(jdpPrincipal);
+        jdpPrincipal.setLayout(jdpPrincipalLayout);
+        jdpPrincipalLayout.setHorizontalGroup(
+            jdpPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 558, Short.MAX_VALUE)
+        );
+        jdpPrincipalLayout.setVerticalGroup(
+            jdpPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 332, Short.MAX_VALUE)
+        );
 
         jMenu3.setText("Feed de Notícias");
 
@@ -65,13 +83,6 @@ public class JFPrincipal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
-        jMenu2.setText("Pesquisar");
-
-        mPesquisarSite.setText("Site");
-        jMenu2.add(mPesquisarSite);
-
-        jMenuBar1.add(jMenu2);
-
         jMenu4.setText("Configurações");
 
         mHorario.setText("Horário de Pesquisa");
@@ -85,11 +96,11 @@ public class JFPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 558, Short.MAX_VALUE)
+            .addComponent(jdpPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 426, Short.MAX_VALUE)
+            .addComponent(jdpPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();
@@ -99,6 +110,10 @@ public class JFPrincipal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_mCadAssuntoActionPerformed
 
+    private void jdpPrincipalComponentResized(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jdpPrincipalComponentResized
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jdpPrincipalComponentResized
+
     /**
      * @param args the command line arguments
      */
@@ -106,15 +121,14 @@ public class JFPrincipal extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     public javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem3;
+    public java.awt.Panel jdpPrincipal;
     public javax.swing.JMenuItem mCadAssunto;
     public javax.swing.JMenuItem mCadSite;
     public javax.swing.JMenuItem mFeedNoticias;
     public javax.swing.JMenuItem mHorario;
-    public javax.swing.JMenuItem mPesquisarSite;
     // End of variables declaration//GEN-END:variables
 }

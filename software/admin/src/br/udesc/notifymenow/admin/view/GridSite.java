@@ -42,6 +42,19 @@ public class GridSite extends AbstractTableModel {
         return null;
    
     }
+      @Override
+    public String getColumnName(int column) {
+        switch (column) {
+            case 0: {
+                return "Nome";
+            }
+            case 1: {
+                return "Link";
+            }
+        }
+        return null;
+    }
+
     
      public void limpar() {
         sites.clear();

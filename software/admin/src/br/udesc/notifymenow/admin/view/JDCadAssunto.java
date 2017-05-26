@@ -32,13 +32,15 @@ public class JDCadAssunto extends javax.swing.JDialog {
         jScrollPane1 = new javax.swing.JScrollPane();
         tbDescricao = new javax.swing.JTable();
         tfAssunto = new javax.swing.JTextField();
-        btCadastrar = new javax.swing.JButton();
+        btAdicionar = new javax.swing.JButton();
         btPesquisar = new javax.swing.JButton();
         btEditar = new javax.swing.JButton();
         btExcluir = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
+        panel1.setBackground(new java.awt.Color(204, 204, 255));
 
         tbDescricao.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -59,10 +61,10 @@ public class JDCadAssunto extends javax.swing.JDialog {
             }
         });
 
-        btCadastrar.setText("Cadastrar");
-        btCadastrar.addActionListener(new java.awt.event.ActionListener() {
+        btAdicionar.setText("Adicionar");
+        btAdicionar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btCadastrarActionPerformed(evt);
+                btAdicionarActionPerformed(evt);
             }
         });
 
@@ -112,12 +114,12 @@ public class JDCadAssunto extends javax.swing.JDialog {
                                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(panel1Layout.createSequentialGroup()
                                         .addGap(10, 10, 10)
-                                        .addComponent(btCadastrar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(btAdicionar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addComponent(btPesquisar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                         .addGap(199, 199, 199))
                                     .addComponent(tfAssunto))))
-                        .addGap(0, 138, Short.MAX_VALUE)))
+                        .addGap(0, 140, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(panel1Layout.createSequentialGroup()
@@ -137,7 +139,7 @@ public class JDCadAssunto extends javax.swing.JDialog {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(panel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btPesquisar)
-                    .addComponent(btCadastrar))
+                    .addComponent(btAdicionar))
                 .addGap(40, 40, 40)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 226, Short.MAX_VALUE)
                 .addGap(45, 45, 45))
@@ -162,6 +164,7 @@ public class JDCadAssunto extends javax.swing.JDialog {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void tfAssuntoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfAssuntoActionPerformed
@@ -180,9 +183,9 @@ public class JDCadAssunto extends javax.swing.JDialog {
         // TODO add your handling code here:
     }//GEN-LAST:event_btExcluirActionPerformed
 
-    private void btCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCadastrarActionPerformed
+    private void btAdicionarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btAdicionarActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btCadastrarActionPerformed
+    }//GEN-LAST:event_btAdicionarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -190,7 +193,7 @@ public class JDCadAssunto extends javax.swing.JDialog {
    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton btCadastrar;
+    public javax.swing.JButton btAdicionar;
     public javax.swing.JButton btEditar;
     public javax.swing.JButton btExcluir;
     public javax.swing.JButton btPesquisar;

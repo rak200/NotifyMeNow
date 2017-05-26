@@ -40,6 +40,17 @@ public class GridAssunto extends AbstractTableModel{
         }
         return null;
     }
+    
+      @Override
+    public String getColumnName(int column) {
+        switch (column) {
+            case 0: {
+                return "Nome";
+            }
+        }
+        return null;
+    }
+
        
 
     public void limpar() {

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.udesc.notifymenow.admin.controller;
+package br.udesc.notifymenow.admin.control;
 
 import br.udesc.notifymenow.admin.view.JFPrincipal;
 import java.awt.event.ActionEvent;
@@ -16,17 +16,15 @@ import java.awt.event.ActionListener;
 public class ControlPrincipal {
 
     private JFPrincipal fPrincipal;
-    private ControlCadFeed cadFeed;
     private ControlCadSite cadSite;
-    private ControlGridFeed cFeed;
+    private ControlFeedNoticias cFeed;
     private ControlHorario cHorario;
     private ControlCadAssunto cadAssunto;
 
     public ControlPrincipal() {
         fPrincipal = new JFPrincipal();
-        cadFeed = new ControlCadFeed();
         cadSite = new ControlCadSite();
-        cFeed = new ControlGridFeed();
+        cFeed = new ControlFeedNoticias();
         cHorario = new ControlHorario();
         cadAssunto = new ControlCadAssunto();
         inicializaComponentes();
@@ -61,23 +59,24 @@ public class ControlPrincipal {
                }
 
     private void cadastrarSite() {
-        //ControlCadSite.cadastrarSite();
+        cadSite.executar();
 
     }
 
     private void feedNoticia() {
-        //ControlCadFeed.cadastrarFeed();
+        
+        cFeed.executar();
 
     }
 
 
     private void cadastrarHorario() {
-        //ControlCadSite.cadastrarSite();
-
+        
+        cHorario.executar();
     }
 
     private void cadastrarAssunto() {
-        //ControlCadSite.cadastrarSite();
+        cadAssunto.executar();
 
     }
 

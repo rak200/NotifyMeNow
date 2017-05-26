@@ -5,23 +5,24 @@
  */
 package br.udesc.notifymenow.admin.control;
 
-import br.udesc.notifymenow.admin.view.JDHorario;
+import br.udesc.notifymenow.admin.view.JDFeedNoticias;
+
 
 /**
  *
  * @author Wagner
  */
-public class ControlHorario {
+public class ControlFeedNoticias {
+
+    JDFeedNoticias feed;
     
-    JDHorario horario;
     
-    public ControlHorario(){
-      horario = new JDHorario(null, true);  
+    public ControlFeedNoticias() {
+        feed = new JDFeedNoticias(null, true);      
     }
     
     public void executar(){
-      
-      horario.setVisible(true);  
+
+        feed.setVisible(true);
     }
-    
 }

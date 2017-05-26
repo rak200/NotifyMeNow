@@ -9,12 +9,12 @@ package br.udesc.notifymenow.admin.view;
  *
  * @author Wagner
  */
-public class JDGridFeed extends javax.swing.JDialog {
+public class JDFeedNoticias extends javax.swing.JDialog {
 
     /**
      * Creates new form FGridFeed
      */
-    public JDGridFeed(java.awt.Frame parent, boolean modal) {
+    public JDFeedNoticias(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
         initComponents();
     }
@@ -47,6 +47,8 @@ public class JDGridFeed extends javax.swing.JDialog {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+
+        panel1.setBackground(new java.awt.Color(204, 204, 255));
 
         jLabel1.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
         jLabel1.setText("  Feed de Notícias");
@@ -111,6 +113,7 @@ public class JDGridFeed extends javax.swing.JDialog {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btCheckActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btCheckActionPerformed

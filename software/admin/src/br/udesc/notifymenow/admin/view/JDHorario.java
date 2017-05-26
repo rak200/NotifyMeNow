@@ -16,6 +16,7 @@ public class JDHorario extends javax.swing.JDialog {
      */
     public JDHorario(java.awt.Frame parent, boolean modal) {
         super(parent, modal);
+        
         initComponents();
     }
 
@@ -35,7 +36,9 @@ public class JDHorario extends javax.swing.JDialog {
         btCancelar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setLocationByPlatform(true);
 
+        panel1.setBackground(new java.awt.Color(204, 204, 255));
         panel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jLabel1.setFont(new java.awt.Font("Cambria", 0, 18)); // NOI18N
@@ -96,6 +99,7 @@ public class JDHorario extends javax.swing.JDialog {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void tfHorarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfHorarioActionPerformed
