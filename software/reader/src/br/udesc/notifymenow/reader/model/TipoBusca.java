@@ -9,7 +9,7 @@ package br.udesc.notifymenow.reader.model;
  *
  * @author Ricardo Augusto Küstner
  */
-enum TipoBusca {
+public enum TipoBusca {
     SERVICO(1, "Serviço"),
     MANUAL(2, "Manual");
 

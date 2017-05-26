@@ -21,7 +21,7 @@ class ConexaoFactory {
             return new ConexaoSqlite();
         }
 
-        Logger.error("Banco de dados " + type + " não definido!");
+        Logger.error("Banco de dados " + type + " não disponível!");
         return null;
     }
 

@@ -10,6 +10,7 @@ import br.udesc.notifymenow.reader.util.Logger;
 import br.udesc.notifymenow.reader.util.Property;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
@@ -47,6 +48,16 @@ public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.C
         }
     }
 
+    @Override
+    public PreparedStatement getPreparedStatement(String sql) {
+        try {
+            return getConnection().prepareStatement(sql);
+        } catch (SQLException ex) {
+            Logger.error(ex);
+        }
+        return null;
+    }
+
     private Statement getStatment() {
         try {
             Statement stm = getConnection().createStatement();
@@ -58,6 +69,7 @@ public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.C
         return null;
     }
 
+    @Override
     public Integer executa(String sql) {
         try {
             return getStatment().executeUpdate(sql);
@@ -67,6 +79,7 @@ public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.C
         return null;
     }
 
+    @Override
     public ResultSet busca(String sql) {
         try {
             return getStatment().executeQuery(sql);

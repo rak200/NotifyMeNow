@@ -21,6 +21,7 @@ create table noticia
 	conteudo text,
 	data datetime not null,
 	link text not null,
+	enviado int not null,
 	constraint fk_noticia_site foreign key (idsite) references site (idsite) 
 )
 ;

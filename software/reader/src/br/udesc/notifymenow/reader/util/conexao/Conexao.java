@@ -5,6 +5,7 @@
  */
 package br.udesc.notifymenow.reader.util.conexao;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 /**
@@ -26,6 +27,10 @@ public class Conexao {
     private static class ConexaoHolder {
 
         private static final Conexao INSTANCE = new Conexao();
+    }
+
+    public PreparedStatement getPreperedStatement(String sql) {
+        return conexao.getPreparedStatement(sql);
     }
 
     public Integer executa(String sql) {

@@ -5,6 +5,7 @@
  */
 package br.udesc.notifymenow.reader.util.conexao;
 
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 /**
@@ -16,5 +17,7 @@ public interface ConexaoDb {
     abstract public Integer executa(String sql);
 
     abstract public ResultSet busca(String sql);
+
+    abstract public PreparedStatement getPreparedStatement(String sql);
 
 }

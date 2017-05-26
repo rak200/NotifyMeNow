@@ -19,12 +19,12 @@ public interface NoticiaDao {
 
     public boolean exclui(Noticia noticia);
 
-    public List<Noticia> lista();
-
     public Noticia busca(int id);
 
-    public List<Noticia> listaPorSite(Site site);
+    public List<Noticia> lista();
 
-    public List<Noticia> listaPorEnvio(boolean enviado);
+    public List<Noticia> lista(Site site);
+
+    public List<Noticia> lista(boolean enviado);
 
 }

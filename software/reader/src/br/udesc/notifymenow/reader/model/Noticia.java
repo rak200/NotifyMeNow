@@ -5,7 +5,11 @@
  */
 package br.udesc.notifymenow.reader.model;
 
+import br.udesc.notifymenow.reader.util.Logger;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+
 
 /**
  *
@@ -14,12 +18,21 @@ import java.util.Date;
 public class Noticia {
 
     private int id;
+    private Site site;
     private String titulo;
     private String conteudo;
     private String link;
     private Date data;
     private boolean enviado;
     private TipoBusca tipoBusca;
+
+    public Site getSite() {
+        return site;
+    }
+
+    public void setSite(Site site) {
+        this.site = site;
+    }
 
     public int getId() {
         return id;
@@ -49,8 +62,22 @@ public class Noticia {
         return data;
     }
 
+    public String getDataFormatada() {
+        SimpleDateFormat format = new SimpleDateFormat("yyyyy-mm-dd hh:mm:ss");
+        return format.format(data);
+    }
+
     public void setData(Date data) {
         this.data = data;
+    }
+
+    public void setData(String data) {
+        SimpleDateFormat format = new SimpleDateFormat("yyyyy-mm-dd hh:mm:ss");
+        try {
+            this.data = format.parse(data);
+        } catch (ParseException ex) {
+            Logger.error(ex);
+        }
     }
 
     public boolean isEnviado() {
