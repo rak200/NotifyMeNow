@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.udesc.notifymenow.reader.model;
+package br.udesc.notifymenow.reader.model.entity;
 
 import br.udesc.notifymenow.reader.util.Logger;
 import java.text.ParseException;
@@ -63,7 +63,7 @@ public class Noticia {
     }
 
     public String getDataFormatada() {
-        SimpleDateFormat format = new SimpleDateFormat("yyyyy-mm-dd hh:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
         return format.format(data);
     }
 
@@ -72,7 +72,7 @@ public class Noticia {
     }
 
     public void setData(String data) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyyy-mm-dd hh:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
         try {
             this.data = format.parse(data);
         } catch (ParseException ex) {

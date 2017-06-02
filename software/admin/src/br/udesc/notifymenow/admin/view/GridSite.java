@@ -5,7 +5,7 @@
  */
 package br.udesc.notifymenow.admin.view;
 
-import br.udesc.notifymenow.reader.model.Site;
+import br.udesc.notifymenow.reader.model.entity.Site;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 

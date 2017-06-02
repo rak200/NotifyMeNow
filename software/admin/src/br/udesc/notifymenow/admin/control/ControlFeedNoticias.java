@@ -7,7 +7,7 @@ package br.udesc.notifymenow.admin.control;
 
 import br.udesc.notifymenow.admin.view.GrigFeedNoticias;
 import br.udesc.notifymenow.admin.view.JDFeedNoticias;
-import br.udesc.notifymenow.reader.model.Noticia;
+import br.udesc.notifymenow.reader.model.entity.Noticia;
 import br.udesc.notifymenow.reader.model.dao.NoticiaDao;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

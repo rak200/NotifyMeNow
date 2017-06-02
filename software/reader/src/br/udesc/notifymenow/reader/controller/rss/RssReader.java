@@ -5,7 +5,8 @@
  */
 package br.udesc.notifymenow.reader.controller.rss;
 
-import br.udesc.notifymenow.reader.model.Noticia;
+import br.udesc.notifymenow.reader.model.entity.Noticia;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -28,5 +29,13 @@ public interface RssReader {
      * @return
      */
     public List<Noticia> retrieve(String url, boolean cache);
+
+    /**
+     * retrieve posts.
+     * @param url URL from RSS origin
+     * @param date determine the lowest date to search
+     * @return
+     */
+    public List<Noticia> retrieve(String url, Date date);
 
 }

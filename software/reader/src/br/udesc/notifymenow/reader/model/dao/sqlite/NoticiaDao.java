@@ -5,8 +5,8 @@
  */
 package br.udesc.notifymenow.reader.model.dao.sqlite;
 
-import br.udesc.notifymenow.reader.model.Noticia;
-import br.udesc.notifymenow.reader.model.Site;
+import br.udesc.notifymenow.reader.model.entity.Noticia;
+import br.udesc.notifymenow.reader.model.entity.Site;
 import br.udesc.notifymenow.reader.util.Logger;
 import br.udesc.notifymenow.reader.util.conexao.Conexao;
 import java.sql.Date;
@@ -43,6 +43,22 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
     }
 
     @Override
+    public java.util.Date ultimaAtualizacao(Site site) {
+        String comando = "select max(data) from noticia where idnoticia = ?";
+        PreparedStatement stm = Conexao.getInstance().getPreperedStatement(comando);
+        try {
+            stm.setInt(1, site.getId());
+            ResultSet resultado = Conexao.getInstance().busca(stm.toString());
+            if (resultado.next()){
+                return novo(resultado).getData();
+            }
+        } catch (SQLException ex) {
+            Logger.error(ex);
+        }
+        return null;
+    }
+
+    @Override
     public List<Noticia> lista() {
         ArrayList<Noticia> lista = new ArrayList<>();
         PreparedStatement stm = Conexao.getInstance().getPreperedStatement(getSelect());
@@ -76,12 +92,38 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
 
     @Override
     public List<Noticia> lista(Site site) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String comando = getSelect() + " where idsite = ?";
+        ArrayList<Noticia> lista = new ArrayList<>();
+        PreparedStatement stm = Conexao.getInstance().getPreperedStatement(comando);
+        try {
+            stm.setInt(1, site.getId());
+            ResultSet resultado = Conexao.getInstance().busca(stm.toString());
+            while (resultado.next()){
+                lista.add(novo(resultado));
+            }
+            return lista;
+        } catch (SQLException ex) {
+            Logger.error(ex);
+        }
+        return null;
     }
 
     @Override
     public List<Noticia> lista(boolean enviado) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        String comando = getSelect() + " where enviado = ?";
+        ArrayList<Noticia> lista = new ArrayList<>();
+        PreparedStatement stm = Conexao.getInstance().getPreperedStatement(comando);
+        try {
+            stm.setInt(1, trataEnviado(enviado));
+            ResultSet resultado = Conexao.getInstance().busca(stm.toString());
+            while (resultado.next()){
+                lista.add(novo(resultado));
+            }
+            return lista;
+        } catch (SQLException ex) {
+            Logger.error(ex);
+        }
+        return null;
     }
 
     private String getSelect() {
@@ -133,11 +175,7 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
         stm.setString(3, noticia.getConteudo());
         stm.setString(4, noticia.getLink());
         stm.setDate(5, (Date) noticia.getData());
-        if (noticia.isEnviado()) {
-            stm.setInt(6, 1);
-        } else {
-            stm.setInt(6, 0);
-        }
+        stm.setInt(6, trataEnviado(noticia.isEnviado()));
     }
 
     private Noticia novo(ResultSet resultado) throws SQLException {
@@ -154,6 +192,11 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
         return noticia;
     }
 
-
+    private int trataEnviado(boolean enviado) {
+        if (enviado) {
+            return 1;
+        }
+        return 0;
+    }
 
 }

@@ -5,8 +5,8 @@
  */
 package br.udesc.notifymenow.reader.model.dao.sqlite;
 
-import br.udesc.notifymenow.reader.model.Site;
-import br.udesc.notifymenow.reader.model.Site;
+import br.udesc.notifymenow.reader.model.entity.Site;
+import br.udesc.notifymenow.reader.model.entity.Site;
 import br.udesc.notifymenow.reader.util.Logger;
 import br.udesc.notifymenow.reader.util.conexao.Conexao;
 import java.sql.PreparedStatement;

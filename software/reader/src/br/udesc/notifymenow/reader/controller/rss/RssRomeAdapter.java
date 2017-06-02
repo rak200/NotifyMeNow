@@ -5,7 +5,7 @@
  */
 package br.udesc.notifymenow.reader.controller.rss;
 
-import br.udesc.notifymenow.reader.model.Noticia;
+import br.udesc.notifymenow.reader.model.entity.Noticia;
 import br.udesc.notifymenow.reader.util.Logger;
 import com.sun.syndication.feed.synd.SyndEntryImpl;
 import com.sun.syndication.fetcher.FeedFetcher;
@@ -38,6 +38,7 @@ public class RssRomeAdapter implements RssReader {
         return parseFeed(response, null);
     }
 
+    @Override
     public List<Noticia> retrieve(String url, Date date) {
         SyndFeed response = requestFeed(url, false);
         return parseFeed(response, date);
@@ -73,9 +74,10 @@ public class RssRomeAdapter implements RssReader {
                 feed.setConteudo(requestFeed.getDescription().getValue());
                 feed.setTitulo(requestFeed.getTitle());
                 feed.setLink(requestFeed.getLink());
-                feed.setData(requestFeed.getPublishedDate());
+//                feed.setData(null);
+                Logger.info(requestFeed.getSource().toString());
 
-                feeds.add(feed);
+//                feeds.add(feed);
             } else {
                 break;
             }

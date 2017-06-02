@@ -5,7 +5,7 @@
  */
 package br.udesc.notifymenow.reader.model.dao;
 
-import br.udesc.notifymenow.reader.model.Assunto;
+import br.udesc.notifymenow.reader.model.entity.Assunto;
 import java.util.List;
 
 /**

@@ -8,7 +8,7 @@ package br.udesc.notifymenow.admin.control;
 import br.udesc.notifymenow.admin.view.GridAssunto;
 import br.udesc.notifymenow.admin.view.GridSite;
 import br.udesc.notifymenow.admin.view.JDCadAssunto;
-import br.udesc.notifymenow.reader.model.Assunto;
+import br.udesc.notifymenow.reader.model.entity.Assunto;
 import br.udesc.notifymenow.reader.model.dao.AssuntoDao;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

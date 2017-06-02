@@ -5,8 +5,9 @@
  */
 package br.udesc.notifymenow.reader.model.dao;
 
-import br.udesc.notifymenow.reader.model.Noticia;
-import br.udesc.notifymenow.reader.model.Site;
+import br.udesc.notifymenow.reader.model.entity.Noticia;
+import br.udesc.notifymenow.reader.model.entity.Site;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -27,4 +28,5 @@ public interface NoticiaDao {
 
     public List<Noticia> lista(boolean enviado);
 
+    public Date ultimaAtualizacao(Site site);
 }

@@ -12,6 +12,7 @@ package br.udesc.notifymenow.reader.controller.rss;
 public class RssReaderFactory {
 
     public static RssReader getRssReader() {
-        return new RssRomeAdapter();
+//        return new RssRomeAdapter(); // não retorna a data corretamente
+        return new RssSimpleFeedParserAdapter();
     }
 }

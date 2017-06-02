@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.udesc.notifymenow.reader.model;
+package br.udesc.notifymenow.reader.model.entity;
 
 /**
  *
  * @author Ricardo Augusto Küstner
  */
-public class Assunto {
+public class Site {
 
     private int id;
     private String nome;
+    private String link;
 
     public int getId() {
         return id;
@@ -30,5 +31,11 @@ public class Assunto {
         this.nome = nome;
     }
 
+    public String getLink() {
+        return link;
+    }
 
+    public void setLink(String link) {
+        this.link = link;
+    }
 }
