@@ -54,6 +54,16 @@ public class Noticia {
         return conteudo;
     }
 
+    public String getConteudoHtml() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(titulo);
+        sb.append("<br />");
+        sb.append(getDataFormatada());
+        sb.append("<br />");
+        sb.append(link);
+        return sb.toString();
+    }
+
     public void setConteudo(String conteudo) {
         this.conteudo = conteudo;
     }

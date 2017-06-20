@@ -9,7 +9,7 @@ package br.udesc.notifymenow.reader.controller.rss;
  *
  * @author Ricardo Augusto Küstner
  */
-public class RssReaderFactory {
+abstract public class RssReaderFactory {
 
     public static RssReader getRssReader() {
 //        return new RssRomeAdapter(); // não retorna a data corretamente

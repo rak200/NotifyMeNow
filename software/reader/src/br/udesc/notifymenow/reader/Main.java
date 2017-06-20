@@ -5,6 +5,7 @@
  */
 package br.udesc.notifymenow.reader;
 
+import br.udesc.notifymenow.reader.controller.mail.MailSenderFactory;
 import br.udesc.notifymenow.reader.controller.rss.RssReader;
 import br.udesc.notifymenow.reader.controller.rss.RssReaderFactory;
 import br.udesc.notifymenow.reader.model.entity.Noticia;
@@ -22,8 +23,20 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.Date;
 import java.util.List;
+import java.util.Properties;
 import java.util.logging.Level;
+import javax.activation.DataHandler;
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.AddressException;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+import javax.mail.util.ByteArrayDataSource;
 
 /**
  *
@@ -35,17 +48,19 @@ public class Main {
         Logger.defineLogger();
 ////        teste();
 
-        RssReader reader = RssReaderFactory.getRssReader();
+        enviaEmail();
 
-        List<Noticia> resposta = reader.retrieve("http://www.valor.com.br/rss");
-
-        for (Noticia feed : resposta) {
-            System.out.println(feed.getTitulo());
-            System.out.println(feed.getConteudo());
-            System.out.println(feed.getLink());
-            System.out.println(feed.getDataFormatada());
-            System.out.println(String.format("\n"));
-        }
+//        RssReader reader = RssReaderFactory.getRssReader();
+//
+//        List<Noticia> resposta = reader.retrieve("http://www.valor.com.br/rss");
+//
+//        for (Noticia feed : resposta) {
+//            System.out.println(feed.getTitulo());
+//            System.out.println(feed.getConteudo());
+//            System.out.println(feed.getLink());
+//            System.out.println(feed.getDataFormatada());
+//            System.out.println(String.format("\n"));
+//        }
     }
 
     private static void teste() {
@@ -64,4 +79,9 @@ public class Main {
             Logger.error(ex);
         }
     }
+
+    private static void enviaEmail() {
+        MailSenderFactory.getMailSender().send("rak.ricardo@gmail.com", "teste", "teste com <br />quebra");
+    }
+
 }
