@@ -53,7 +53,7 @@ public class NoticiaBo {
 
             for (Noticia feed : reader.retrieve(site.getLink(), dataAtualizacao)) {
                 for (Assunto assunto : assuntos) {
-                    if (feed.getConteudo().contains(assunto.getNome())) {
+                    if (feed.getConteudo().contains(assunto.getNome()) || feed.getTitulo().contains(assunto.getNome())) {
                         dao.salva(feed);
                         break;
                     }

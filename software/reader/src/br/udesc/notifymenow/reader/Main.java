@@ -32,12 +32,12 @@ public class Main {
 //        testeAssunto();
 //        testeSite();
 //        testeNoticia();
-        testeFeed();
+//        testeFeed();
 //        showData("Qua, 21 Jun 2017 02:30:00 -0300");
 //        showData("Wed, 21 Jun 2017 03:03:36 -0300");
 //        showData("21 Jun 2017 01:42:00");
 
-
+        seed();
     }
 
     private static void showData(String data) {
@@ -189,4 +189,32 @@ public class Main {
         }
     }
 
+    private static void seed() {
+        Site site = new Site();
+        site.setLink("http://www.valor.com.br/rss");
+        site.setNome("Valor");
+
+        SiteDao siteDao = DaoFactory.getSite();
+        siteDao.salva(site);
+
+        site.setId(0);
+        site.setLink("http://rss.uol.com.br/feed/economia.xml");
+        site.setNome("UOL");
+        siteDao.salva(site);
+
+        site.setId(0);
+        site.setLink("http://www.infomoney.com.br/ultimas-noticias/rss");
+        site.setNome("Money");
+        siteDao.salva(site);
+
+
+        Assunto assunto = new Assunto();
+        assunto.setNome("governo");
+
+        AssuntoDao assuntoDao = DaoFactory.getAssunto();
+        assuntoDao.salva(assunto);
+
+        assunto.setId(0);
+        assunto.setNome("presidente");
+    }
 }
