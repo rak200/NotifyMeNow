@@ -352,3 +352,101 @@ Caused by: java.lang.IllegalArgumentException: InputStream cannot be null
 	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
 	... 4 more
 
+jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Criando base de dados!
+jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+java.io.FileNotFoundException: db\DDL.sql (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at br.udesc.notifymenow.reader.util.FileUtil.getContent(FileUtil.java:24)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.iniciaBanco(ConexaoSqlite.java:46)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.<init>(ConexaoSqlite.java:33)
+	at br.udesc.notifymenow.reader.util.conexao.ConexaoFactory.getConexao(ConexaoFactory.java:21)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:20)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:15)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao$ConexaoHolder.<clinit>(Conexao.java:29)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.getInstance(Conexao.java:24)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
+	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
+
+jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Base de dados criada!
+jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: site)
+	at org.sqlite.core.DB.newSQLException(DB.java:909)
+	at org.sqlite.core.DB.newSQLException(DB.java:921)
+	at org.sqlite.core.DB.throwex(DB.java:886)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
+	at org.sqlite.core.DB.prepare(DB.java:227)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
+	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
+
+jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Criando base de dados!
+jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+java.io.FileNotFoundException: db\DDL.sql (O sistema não pode encontrar o caminho especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at br.udesc.notifymenow.reader.util.FileUtil.getContent(FileUtil.java:24)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.iniciaBanco(ConexaoSqlite.java:46)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.<init>(ConexaoSqlite.java:33)
+	at br.udesc.notifymenow.reader.util.conexao.ConexaoFactory.getConexao(ConexaoFactory.java:21)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:20)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:15)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao$ConexaoHolder.<clinit>(Conexao.java:29)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.getInstance(Conexao.java:24)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
+	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
+
+jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Base de dados criada!
+jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: site)
+	at org.sqlite.core.DB.newSQLException(DB.java:909)
+	at org.sqlite.core.DB.newSQLException(DB.java:921)
+	at org.sqlite.core.DB.throwex(DB.java:886)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
+	at org.sqlite.core.DB.prepare(DB.java:227)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
+	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
+	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
+	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
+
+jun 21, 2017 3:56:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Criando base de dados!
+jun 21, 2017 3:56:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Base de dados criada!

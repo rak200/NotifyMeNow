@@ -43,7 +43,7 @@ public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.C
     private void iniciaBanco() {
         if (!hasTable()) {
             Logger.info("Criando base de dados!");
-            executa(FileUtil.getContent("db/DDL.sql"));
+            executa(FileUtil.getContent(Property.get("banco_dados_pasta") + "/DDL.sql"));
             Logger.info("Base de dados criada!");
         }
     }
