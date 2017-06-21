@@ -94,7 +94,8 @@ public class SiteDao implements br.udesc.notifymenow.reader.model.dao.SiteDao {
         return false;
     }
 
-    private boolean altera(Site site) {
+    @Override
+    public boolean altera(Site site) {
         String comando = "update site set nome = ?, link = ? where idsite = ?";
         PreparedStatement stm =  Conexao.getInstance().getPreperedStatement(comando);
         try {

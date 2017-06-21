@@ -93,7 +93,8 @@ public class AssuntoDao implements br.udesc.notifymenow.reader.model.dao.Assunto
         return false;
     }
 
-    private boolean altera(Assunto assunto) {
+    @Override
+    public boolean altera(Assunto assunto) {
         String comando = "update assunto set nome = ? where idassunto = ?";
         PreparedStatement stm =  Conexao.getInstance().getPreperedStatement(comando);
         try {

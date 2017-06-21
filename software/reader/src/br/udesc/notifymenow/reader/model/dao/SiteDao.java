@@ -17,6 +17,8 @@ public interface SiteDao {
     public boolean salva(Site site);
 
     public boolean exclui(Site site);
+    
+    public boolean altera(Site site);
 
     public List<Site> lista();
 

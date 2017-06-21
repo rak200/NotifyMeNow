@@ -17,6 +17,8 @@ public interface AssuntoDao {
     public boolean salva(Assunto assunto);
 
     public boolean exclui(Assunto assunto);
+    
+    public boolean altera(Assunto assunto);
 
     public List<Assunto> lista();
 

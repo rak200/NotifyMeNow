@@ -206,3 +206,1705 @@ jun 21, 2017 5:01:25 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Criando base de dados!
 jun 21, 2017 5:01:25 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Base de dados criada!
+Jun 21, 2017 10:00:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:01:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:09:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:09:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:11:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:12:39 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:13:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:14:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:15:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:24:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:24:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:24:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: inserido
+Jun 21, 2017 10:44:57 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:57 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:57 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:58 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:44:59 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:00 AM br.udesc.notifymenow.reader.util.Logger error
+SEVERE: null
+com.ernieyu.feedparser.FeedException: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:40)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:49)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.check(ControlFeedNoticias.java:57)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias$1.actionPerformed(ControlFeedNoticias.java:48)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.executar(ControlFeedNoticias.java:78)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.feedNoticia(ControlPrincipal.java:77)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.access$000(ControlPrincipal.java:16)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal$1.actionPerformed(ControlPrincipal.java:39)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:833)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:877)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1895)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(XMLEntityScanner.java:508)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2716)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
+	... 88 more
+
+Jun 21, 2017 10:45:01 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:01 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:01 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:01 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:01 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:01 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:02 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:02 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:02 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:02 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:02 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:02 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:03 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:04 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:45:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:53:22 AM br.udesc.notifymenow.reader.util.Logger error
+SEVERE: null
+com.ernieyu.feedparser.FeedException: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:40)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:49)
+	at br.udesc.notifymenow.reader.model.bo.NoticiaBo.atualiza(NoticiaBo.java:54)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.check(ControlFeedNoticias.java:57)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias$1.actionPerformed(ControlFeedNoticias.java:49)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.executar(ControlFeedNoticias.java:71)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.feedNoticia(ControlPrincipal.java:77)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.access$000(ControlPrincipal.java:16)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal$1.actionPerformed(ControlPrincipal.java:39)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:833)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:877)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1895)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(XMLEntityScanner.java:508)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2716)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
+	... 88 more
+
+Jun 21, 2017 10:55:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: Criando base de dados!
+Jun 21, 2017 10:55:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: Base de dados criada!
+Jun 21, 2017 10:58:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:35 AM br.udesc.notifymenow.reader.util.Logger error
+SEVERE: null
+com.ernieyu.feedparser.FeedException: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:40)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:49)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.check(ControlFeedNoticias.java:58)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias$1.actionPerformed(ControlFeedNoticias.java:48)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.executar(ControlFeedNoticias.java:79)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.feedNoticia(ControlPrincipal.java:77)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.access$000(ControlPrincipal.java:16)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal$1.actionPerformed(ControlPrincipal.java:39)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:833)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:877)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1895)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(XMLEntityScanner.java:508)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2716)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
+	... 88 more
+
+Jun 21, 2017 10:58:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:39 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:39 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:39 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:39 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:39 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:40 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:41 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:42 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:43 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:44 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:45 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:46 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:47 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:48 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:49 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:50 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:51 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:52 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:53 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:54 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:55 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:58:55 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:12 AM br.udesc.notifymenow.reader.util.Logger error
+SEVERE: null
+com.ernieyu.feedparser.FeedException: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:40)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:49)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.check(ControlFeedNoticias.java:58)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias$1.actionPerformed(ControlFeedNoticias.java:48)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:109)
+	at java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:184)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:229)
+	at java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:227)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:227)
+	at java.awt.Dialog.show(Dialog.java:1084)
+	at java.awt.Component.show(Component.java:1671)
+	at java.awt.Component.setVisible(Component.java:1623)
+	at java.awt.Window.setVisible(Window.java:1014)
+	at java.awt.Dialog.setVisible(Dialog.java:1005)
+	at br.udesc.notifymenow.admin.control.ControlFeedNoticias.executar(ControlFeedNoticias.java:79)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.feedNoticia(ControlPrincipal.java:77)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal.access$000(ControlPrincipal.java:16)
+	at br.udesc.notifymenow.admin.control.ControlPrincipal$1.actionPerformed(ControlPrincipal.java:39)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.AbstractButton.doClick(AbstractButton.java:376)
+	at javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:833)
+	at javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:877)
+	at java.awt.Component.processMouseEvent(Component.java:6533)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6298)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4889)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4711)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+Caused by: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 2 of 2-byte UTF-8 sequence.
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.invalidByte(UTF8Reader.java:701)
+	at com.sun.org.apache.xerces.internal.impl.io.UTF8Reader.read(UTF8Reader.java:372)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.load(XMLEntityScanner.java:1895)
+	at com.sun.org.apache.xerces.internal.impl.XMLEntityScanner.peekChar(XMLEntityScanner.java:508)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2716)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(SAXParserImpl.java:327)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
+	... 88 more
+
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:14 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:15 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:16 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:17 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:18 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:19 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:20 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:21 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:22 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:32 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:33 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:34 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:35 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:36 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:37 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
+Jun 21, 2017 10:59:38 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: noticia inserida
