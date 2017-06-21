@@ -1,452 +1,208 @@
-jun 21, 2017 12:29:53 AM br.udesc.notifymenow.reader.util.Logger info
+jun 21, 2017 4:42:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:42:23 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-50-20 15:50:00
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-41-20 15:41:00
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-07-20 15:07:00
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-30-20 14:30:00
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-39-20 11:39:00
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:42:24 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-37-20 08:37:00
+jun 21, 2017 4:42:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:42:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-50-20 15:50:00
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-41-20 15:41:00
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-07-20 15:07:00
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-30-20 14:30:00
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-39-20 11:39:00
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:42:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-37-20 08:37:00
+jun 21, 2017 4:42:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:42:27 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-50-20 15:50:00
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-41-20 15:41:00
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-07-20 15:07:00
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-30-20 14:30:00
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:42:28 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-39-20 11:39:00
+jun 21, 2017 4:42:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:42:29 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-37-20 08:37:00
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-50-20 15:50:00
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-41-20 15:41:00
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-07-20 15:07:00
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:42:30 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-30-20 14:30:00
+jun 21, 2017 4:42:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:42:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-39-20 11:39:00
+jun 21, 2017 4:42:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:42:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-37-20 08:37:00
+jun 21, 2017 4:42:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:42:31 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-00-20 00:00:00
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:50:00
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:41:00
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:07:00
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:45:05 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 14:30:00
+jun 21, 2017 4:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 11:39:00
+jun 21, 2017 4:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:45:06 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 08:37:00
+jun 21, 2017 4:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:50:00
+jun 21, 2017 4:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:41:00
+jun 21, 2017 4:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:45:07 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:07:00
+jun 21, 2017 4:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 14:30:00
+jun 21, 2017 4:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 11:39:00
+jun 21, 2017 4:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:45:08 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 08:37:00
+jun 21, 2017 4:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:50:00
+jun 21, 2017 4:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:45:09 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:41:00
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:07:00
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 14:30:00
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 11:39:00
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:45:10 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 08:37:00
+jun 21, 2017 4:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Renan: votação mostra que reforma trabalhista agrava circunstâncias econômicas
+jun 21, 2017 4:45:11 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:50:00
+jun 21, 2017 4:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Ricardo Ferraço reconhece derrota política do governo em votação de reforma
+jun 21, 2017 4:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:41:00
+jun 21, 2017 4:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Será o fim? Oposição celebra rejeição da Reforma Trabalhista e diz que Temer "perdeu sua base"
+jun 21, 2017 4:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 15:07:00
+jun 21, 2017 4:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Reforma Trabalhista seguirá tramitação mesmo com "rejeição" de senadores; entenda
+jun 21, 2017 4:45:12 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 14:30:00
+jun 21, 2017 4:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: Chineses da State Grid vão tocar obras do Linhão de Belo Monte
+jun 21, 2017 4:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 11:39:00
+jun 21, 2017 4:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: MPF acusa Michel Temer de receber propina de R$ 500 mil via OAS, afirma GloboNews
+jun 21, 2017 4:45:13 AM br.udesc.notifymenow.reader.util.Logger info
+INFORMAÇÕES: 2017-06-20 08:37:00
+jun 21, 2017 4:49:05 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Criando base de dados!
-jun 21, 2017 12:29:54 AM br.udesc.notifymenow.reader.util.Logger info
+jun 21, 2017 4:49:06 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Base de dados criada!
-jun 21, 2017 12:29:54 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "returning": syntax error)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
-	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
-	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:31:59 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "returning": syntax error)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
-	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
-	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:35:10 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: org.sqlite.jdbc4.JDBC4PreparedStatement@76fb509a
-jun 21, 2017 12:35:10 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "org": syntax error)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:81)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:85)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:41)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:82)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:36:27 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: org.sqlite.jdbc4.JDBC4PreparedStatement@76fb509a
-jun 21, 2017 12:36:27 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "org": syntax error)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:81)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:85)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:41)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:82)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:37:26 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "returning": syntax error)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
-	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
-	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:45:10 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.sql.SQLException: Query does not return results
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeQuery(JDBC3PreparedStatement.java:68)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:105)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:49)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:81)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:45:40 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.sql.SQLException: Query does not return results
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeQuery(JDBC3PreparedStatement.java:68)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:105)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:49)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:81)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:47:46 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: assunto.nome)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.execute(DB.java:825)
-	at org.sqlite.core.CoreStatement.exec(CoreStatement.java:75)
-	at org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:83)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:95)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:45)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:84)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:51:03 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca
-jun 21, 2017 12:51:03 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: assunto.nome)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.execute(DB.java:825)
-	at org.sqlite.core.CoreStatement.exec(CoreStatement.java:75)
-	at org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:83)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:95)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:45)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:85)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:55:12 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca
-jun 21, 2017 12:55:12 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: id)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.jdbc3.JDBC3Statement.executeQuery(JDBC3Statement.java:81)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.busca(ConexaoSqlite.java:95)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.busca(Conexao.java:45)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.insere(AssuntoDao.java:85)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.AssuntoDao.salva(AssuntoDao.java:28)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:58)
-
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca salva
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 4 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca alterada
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca nova
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: outra vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 4 - vaca alterada
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 5 - vaca nova
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: vaca morrida
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - vaca
-jun 21, 2017 12:56:02 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 4 - vaca alterada
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: inserido
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca - link da vaca
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: alterado
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca - link da vaca
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - vaca alterada - link da vaca alterado
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - vaca alterada - link da vaca alterado
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca - link da vaca
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - vaca alterada - link da vaca alterado
-jun 21, 2017 1:05:18 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: exluido
-jun 21, 2017 1:07:20 AM br.udesc.notifymenow.reader.util.Logger info
+jun 21, 2017 4:58:44 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Criando base de dados!
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
+jun 21, 2017 4:58:45 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Base de dados criada!
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: inserido
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca - link da vaca
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: alterado
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca - link da vaca
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - vaca alterada - link da vaca alterado
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - vaca - link da vaca
-jun 21, 2017 1:07:21 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: exluido
-jun 21, 2017 1:20:23 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near "returning": syntax error)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
-	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
-	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.insere(NoticiaDao.java:139)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.salva(NoticiaDao.java:30)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:65)
-
-jun 21, 2017 1:31:03 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.sql.SQLException: no such column: 'idsite'
-	at org.sqlite.jdbc3.JDBC3ResultSet.findColumn(JDBC3ResultSet.java:48)
-	at org.sqlite.jdbc3.JDBC3ResultSet.getInt(JDBC3ResultSet.java:401)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.insere(NoticiaDao.java:152)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.salva(NoticiaDao.java:34)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:65)
-
-jun 21, 2017 1:31:03 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: inserido
-jun 21, 2017 1:34:03 AM br.udesc.notifymenow.reader.util.Logger info
+jun 21, 2017 5:01:25 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Criando base de dados!
-jun 21, 2017 1:34:03 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: Base de dados criada!
-jun 21, 2017 1:34:03 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: inserido
-jun 21, 2017 1:35:09 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: inserido
-jun 21, 2017 1:35:09 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.text.ParseException: Unparseable date: "1498014000000"
-	at java.text.DateFormat.parse(DateFormat.java:366)
-	at br.udesc.notifymenow.reader.model.entity.Noticia.setData(Noticia.java:90)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.novo(NoticiaDao.java:204)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.lista(NoticiaDao.java:72)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:68)
-
-jun 21, 2017 1:35:09 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.text.ParseException: Unparseable date: "1498014000000"
-	at java.text.DateFormat.parse(DateFormat.java:366)
-	at br.udesc.notifymenow.reader.model.entity.Noticia.setData(Noticia.java:90)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.novo(NoticiaDao.java:204)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.NoticiaDao.lista(NoticiaDao.java:72)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:68)
-
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: inserido
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: alterado
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 4 - titulo 3 - link 3 - conteudo 3 - 2017-00-21 00:00:00 - true
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: exluido
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 1 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 2 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: 3 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
-jun 21, 2017 3:03:12 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.net.MalformedURLException: no protocol: 
-	at java.net.URL.<init>(URL.java:586)
-	at java.net.URL.<init>(URL.java:483)
-	at java.net.URL.<init>(URL.java:432)
-	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.getStream(RssSimpleFeedParserAdapter.java:85)
-	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:48)
-	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
-	at br.udesc.notifymenow.reader.Main.testeFeed(Main.java:41)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:31)
-
-jun 21, 2017 3:03:12 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-com.ernieyu.feedparser.FeedException: java.lang.IllegalArgumentException: InputStream cannot be null
-	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:40)
-	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:49)
-	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
-	at br.udesc.notifymenow.reader.Main.testeFeed(Main.java:41)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:31)
-Caused by: java.lang.IllegalArgumentException: InputStream cannot be null
-	at javax.xml.parsers.SAXParser.parse(SAXParser.java:191)
-	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
-	... 4 more
-
-jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: Criando base de dados!
-jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.io.FileNotFoundException: db\DDL.sql (O sistema não pode encontrar o caminho especificado)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at java.io.FileReader.<init>(FileReader.java:58)
-	at br.udesc.notifymenow.reader.util.FileUtil.getContent(FileUtil.java:24)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.iniciaBanco(ConexaoSqlite.java:46)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.<init>(ConexaoSqlite.java:33)
-	at br.udesc.notifymenow.reader.util.conexao.ConexaoFactory.getConexao(ConexaoFactory.java:21)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:20)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:15)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao$ConexaoHolder.<clinit>(Conexao.java:29)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getInstance(Conexao.java:24)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
-	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
-
-jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: Base de dados criada!
-jun 21, 2017 3:52:38 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: site)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
-	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
-	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
-	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
-
-jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: Criando base de dados!
-jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-java.io.FileNotFoundException: db\DDL.sql (O sistema não pode encontrar o caminho especificado)
-	at java.io.FileInputStream.open0(Native Method)
-	at java.io.FileInputStream.open(FileInputStream.java:195)
-	at java.io.FileInputStream.<init>(FileInputStream.java:138)
-	at java.io.FileInputStream.<init>(FileInputStream.java:93)
-	at java.io.FileReader.<init>(FileReader.java:58)
-	at br.udesc.notifymenow.reader.util.FileUtil.getContent(FileUtil.java:24)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.iniciaBanco(ConexaoSqlite.java:46)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.<init>(ConexaoSqlite.java:33)
-	at br.udesc.notifymenow.reader.util.conexao.ConexaoFactory.getConexao(ConexaoFactory.java:21)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:20)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.<init>(Conexao.java:15)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao$ConexaoHolder.<clinit>(Conexao.java:29)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getInstance(Conexao.java:24)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
-	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
-
-jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: Base de dados criada!
-jun 21, 2017 3:55:41 AM br.udesc.notifymenow.reader.util.Logger error
-GRAVE: null
-org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: site)
-	at org.sqlite.core.DB.newSQLException(DB.java:909)
-	at org.sqlite.core.DB.newSQLException(DB.java:921)
-	at org.sqlite.core.DB.throwex(DB.java:886)
-	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
-	at org.sqlite.core.NativeDB.prepare(NativeDB.java:127)
-	at org.sqlite.core.DB.prepare(DB.java:227)
-	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:41)
-	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
-	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:19)
-	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:48)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:263)
-	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:235)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.ConexaoSqlite.getPreparedStatement(ConexaoSqlite.java:54)
-	at br.udesc.notifymenow.reader.util.conexao.Conexao.getPreperedStatement(Conexao.java:33)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.insere(SiteDao.java:78)
-	at br.udesc.notifymenow.reader.model.dao.sqlite.SiteDao.salva(SiteDao.java:28)
-	at br.udesc.notifymenow.reader.Main.seed(Main.java:198)
-	at br.udesc.notifymenow.reader.Main.main(Main.java:40)
-
-jun 21, 2017 3:56:59 AM br.udesc.notifymenow.reader.util.Logger info
-INFORMAÇÕES: Criando base de dados!
-jun 21, 2017 3:56:59 AM br.udesc.notifymenow.reader.util.Logger info
+jun 21, 2017 5:01:25 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: Base de dados criada!

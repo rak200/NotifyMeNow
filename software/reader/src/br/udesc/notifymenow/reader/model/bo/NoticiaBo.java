@@ -47,7 +47,7 @@ public class NoticiaBo {
 
         for (Site site : siteDao.lista()) {
             Date dataAtualizacao = dao.ultimaAtualizacao(site);
-            if (dataAtualizacao.before(getDataLimite().getTime())) {
+            if (dataAtualizacao == null || dataAtualizacao.before(getDataLimite().getTime())) {
                 dataAtualizacao = getDataLimite().getTime();
             }
 
@@ -69,7 +69,9 @@ public class NoticiaBo {
 
             String dias = Property.get("limite_dias");
             if (!dias.isEmpty()) {
-                dataLimite.add(Calendar.DAY_OF_MONTH, Integer.getInteger(dias) * -1);
+                int diferenca = Integer.parseInt(dias);
+                diferenca *= -1;
+                dataLimite.add(Calendar.DAY_OF_MONTH, diferenca);
             }
         }
         return dataLimite;
@@ -83,6 +85,7 @@ public class NoticiaBo {
             msg.setContent("NotifyMeNow: " + naoEnviado.getConteudoHtml());
             naoEnviado.setEnviado(true);
             dao.salva(naoEnviado);
+            msg.send();
         }
     }
 

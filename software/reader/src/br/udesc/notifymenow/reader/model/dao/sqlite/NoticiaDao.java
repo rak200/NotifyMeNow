@@ -13,11 +13,13 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -48,13 +50,13 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
 
     @Override
     public java.util.Date ultimaAtualizacao(Site site) {
-        String comando = "select max(data) from noticia where idnoticia = ?";
+        String comando = "select max(data) as data from noticia where idnoticia = ?";
         PreparedStatement stm = Conexao.getInstance().getPreperedStatement(comando);
         try {
             stm.setInt(1, site.getId());
             ResultSet resultado = Conexao.getInstance().busca(stm);
             if (resultado.next()){
-                return novo(resultado).getData();
+                return resultado.getDate("data");
             }
         } catch (SQLException ex) {
             Logger.error(ex);
@@ -182,15 +184,12 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
         stm.setString(2, noticia.getTitulo());
         stm.setString(3, noticia.getConteudo());
         stm.setString(4, noticia.getLink());
-        stm.setDate(5, Date.valueOf(trataData(noticia.getData())));
+        stm.setTimestamp(5, trataData(noticia.getData()));
         stm.setInt(6, trataEnviado(noticia.isEnviado()));
     }
 
-    private LocalDate trataData(java.util.Date data) {
-        Instant instant = data.toInstant();
-        ZoneId zoneId = ZoneId.of( "America/Sao_Paulo" );
-        ZonedDateTime zdt = ZonedDateTime.ofInstant ( instant , zoneId );
-        return zdt.toLocalDate();
+    private Timestamp trataData(java.util.Date data) {
+        return new java.sql.Timestamp(data.getTime());
     }
 
     private Noticia novo(ResultSet resultado) throws SQLException {
@@ -201,7 +200,7 @@ public class NoticiaDao implements br.udesc.notifymenow.reader.model.dao.Noticia
         noticia.getSite().setLink(resultado.getString("linksite"));
         noticia.setTitulo(resultado.getString("titulo"));
         noticia.setConteudo(resultado.getString("conteudo"));
-        noticia.setData(resultado.getDate("data"));
+        noticia.setData(resultado.getTimestamp("data"));
         noticia.setLink(resultado.getString("link"));
         noticia.setEnviado(resultado.getInt("enviado") == 1);
         return noticia;

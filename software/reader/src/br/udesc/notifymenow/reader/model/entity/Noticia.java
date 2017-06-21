@@ -76,7 +76,7 @@ public class Noticia {
     }
 
     public String getDataFormatada() {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return format.format(data);
     }
 
@@ -85,7 +85,7 @@ public class Noticia {
     }
 
     public void setData(String data) {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         try {
             this.data = format.parse(data);
         } catch (ParseException ex) {

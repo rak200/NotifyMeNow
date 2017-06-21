@@ -7,6 +7,7 @@ package br.udesc.notifymenow.reader;
 
 import br.udesc.notifymenow.reader.controller.rss.RssReader;
 import br.udesc.notifymenow.reader.controller.rss.RssReaderFactory;
+import br.udesc.notifymenow.reader.model.bo.NoticiaBo;
 import br.udesc.notifymenow.reader.model.dao.AssuntoDao;
 import br.udesc.notifymenow.reader.model.dao.NoticiaDao;
 import br.udesc.notifymenow.reader.model.dao.SiteDao;
@@ -37,7 +38,14 @@ public class Main {
 //        showData("Wed, 21 Jun 2017 03:03:36 -0300");
 //        showData("21 Jun 2017 01:42:00");
 
-        seed();
+//        seed();
+//        envia();
+    }
+
+    private static void envia() {
+        NoticiaBo bo = new NoticiaBo(DaoFactory.getNoticia());
+        bo.atualiza();
+        bo.enviaEmail();
     }
 
     private static void showData(String data) {
@@ -200,7 +208,8 @@ public class Main {
         site.setId(0);
         site.setLink("http://rss.uol.com.br/feed/economia.xml");
         site.setNome("UOL");
-        siteDao.salva(site);
+        // esse não funciona
+//        siteDao.salva(site);
 
         site.setId(0);
         site.setLink("http://www.infomoney.com.br/ultimas-noticias/rss");
