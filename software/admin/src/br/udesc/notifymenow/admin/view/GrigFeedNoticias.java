@@ -6,7 +6,6 @@
 package br.udesc.notifymenow.admin.view;
 
 import br.udesc.notifymenow.reader.model.entity.Noticia;
-import br.udesc.notifymenow.reader.model.entity.Noticia;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
 
