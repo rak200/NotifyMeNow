@@ -16,7 +16,7 @@ import br.udesc.notifymenow.reader.util.Property;
 class ConexaoFactory {
 
     public static ConexaoDb getConexao() {
-        String type = Property.get("db_type");
+        String type = Property.get("banco_dados_tipo");
         if (type.toLowerCase().equals("sqlite")) {
             return new ConexaoSqlite();
         }

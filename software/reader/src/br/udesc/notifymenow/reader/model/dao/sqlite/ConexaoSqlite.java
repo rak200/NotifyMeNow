@@ -21,7 +21,7 @@ import java.sql.Statement;
  */
 public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.ConexaoDb {
 
-    public static final String DB_FILE = Property.get("db_path") + "/nmn.db";
+    public static final String DB_FILE = Property.get("banco_dados_pasta") + "/nmn.db";
 
     private final String DB_DRIVER = "jdbc:sqlite";
 
@@ -80,9 +80,29 @@ public class ConexaoSqlite implements br.udesc.notifymenow.reader.util.conexao.C
     }
 
     @Override
+    public Integer executa(PreparedStatement sql) {
+        try {
+            return sql.executeUpdate();
+        } catch (SQLException ex) {
+            Logger.error(ex);
+        }
+        return null;
+    }
+
+    @Override
     public ResultSet busca(String sql) {
         try {
             return getStatment().executeQuery(sql);
+        } catch (SQLException ex) {
+            Logger.error(ex);
+        }
+        return null;
+    }
+
+    @Override
+    public ResultSet busca(PreparedStatement sql) {
+        try {
+            return sql.executeQuery();
         } catch (SQLException ex) {
             Logger.error(ex);
         }

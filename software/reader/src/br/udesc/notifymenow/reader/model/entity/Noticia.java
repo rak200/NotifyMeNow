@@ -27,6 +27,9 @@ public class Noticia {
     private TipoBusca tipoBusca;
 
     public Site getSite() {
+        if (site == null) {
+            site = new Site();
+        }
         return site;
     }
 

@@ -18,6 +18,10 @@ public interface ConexaoDb {
 
     abstract public ResultSet busca(String sql);
 
+    abstract public Integer executa(PreparedStatement sql);
+
+    abstract public ResultSet busca(PreparedStatement sql);
+
     abstract public PreparedStatement getPreparedStatement(String sql);
 
 }

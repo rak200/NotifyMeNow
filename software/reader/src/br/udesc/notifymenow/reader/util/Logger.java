@@ -16,12 +16,16 @@ import java.util.logging.SimpleFormatter;
  */
 public class Logger {
 
+    static {
+        defineLogger();
+    }
+
     public static void defineLogger() {
         java.util.logging.Logger logger = java.util.logging.Logger.getLogger("Reader");
         FileHandler arquivo;
 
         try {
-            arquivo = new FileHandler(Property.get("log_path") + "/log%u.txt", true);
+            arquivo = new FileHandler(Property.get("pasta_log") + "/log%u.txt", true);
             logger.addHandler(arquivo);
             logger.setLevel(Level.ALL);
             arquivo.setFormatter(new SimpleFormatter());

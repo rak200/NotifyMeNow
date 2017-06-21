@@ -37,7 +37,15 @@ public class Conexao {
         return conexao.executa(sql);
     }
 
+    public Integer executa(PreparedStatement sql) {
+        return conexao.executa(sql);
+    }
+
     public ResultSet busca(String sql) {
+        return conexao.busca(sql);
+    }
+
+    public ResultSet busca(PreparedStatement sql) {
         return conexao.busca(sql);
     }
 }

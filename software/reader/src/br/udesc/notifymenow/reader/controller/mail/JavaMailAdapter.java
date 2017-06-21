@@ -6,6 +6,7 @@
 package br.udesc.notifymenow.reader.controller.mail;
 
 import br.udesc.notifymenow.reader.util.Logger;
+import br.udesc.notifymenow.reader.util.Property;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -29,8 +30,8 @@ import javax.mail.util.ByteArrayDataSource;
  */
 public class JavaMailAdapter implements MailSender {
 
-    private final String USERNAME = "app.notifymenow@gmail.com";
-    private final String PASSWORD = "notifymenowpw";
+    private final String USERNAME = Property.get("email_rementente");
+    private final String PASSWORD = Property.get("email_rementente_senha");
 
     private Properties properties;
     private final List<String> recipient;
@@ -46,8 +47,8 @@ public class JavaMailAdapter implements MailSender {
             properties = new Properties();
             properties.put("mail.smtp.auth", "true");
             properties.put("mail.smtp.starttls.enable", "true");
-            properties.put("mail.smtp.host", "smtp.gmail.com");
-            properties.put("mail.smtp.port", "587");
+            properties.put("mail.smtp.host", Property.get("email_smtp"));
+            properties.put("mail.smtp.port", Property.get("email_porta"));
         }
         return properties;
     }

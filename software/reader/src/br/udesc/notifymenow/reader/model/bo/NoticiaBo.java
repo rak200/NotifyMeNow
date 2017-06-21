@@ -67,7 +67,7 @@ public class NoticiaBo {
         if (dataLimite == null) {
             dataLimite = Calendar.getInstance();
 
-            String dias = Property.get("days_limit");
+            String dias = Property.get("limite_dias");
             if (!dias.isEmpty()) {
                 dataLimite.add(Calendar.DAY_OF_MONTH, Integer.getInteger(dias) * -1);
             }
@@ -78,7 +78,7 @@ public class NoticiaBo {
     public void enviaEmail() {
         for (Noticia naoEnviado : listaNaoEnviados()) {
             MailSender msg = MailSenderFactory.getMailSender();
-            msg.addRecipient(Property.get("mail_recipient"));
+            msg.addRecipient(Property.get("email_detinatario"));
             msg.setSubject("NotifyMeNow: " + naoEnviado.getTitulo());
             msg.setContent("NotifyMeNow: " + naoEnviado.getConteudoHtml());
             naoEnviado.setEnviado(true);

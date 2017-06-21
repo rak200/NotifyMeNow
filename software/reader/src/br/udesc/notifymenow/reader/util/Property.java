@@ -22,7 +22,7 @@ public class Property {
     static {
         FileInputStream fileInput = null;
         try {
-            File file = new File("config.properties");
+            File file = new File("../config.properties");
             fileInput = new FileInputStream(file);
             properties = new Properties();
             properties.load(fileInput);
