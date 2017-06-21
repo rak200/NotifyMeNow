@@ -5,6 +5,7 @@
  */
 package br.udesc.notifymenow.service;
 
+import br.udesc.notifymenow.reader.util.Logger;
 import br.udesc.notifymenow.service.controller.Agendamento;
 
 /**
@@ -14,6 +15,10 @@ import br.udesc.notifymenow.service.controller.Agendamento;
 public class Main {
 
     public static void main(String[] args) {
-        (new Agendamento()).iniciar();
+        try {
+            (new Agendamento()).iniciar();
+        } catch (Exception e) {
+            Logger.error(e);
+        }
     }
 }

@@ -16,6 +16,7 @@ import br.udesc.notifymenow.reader.model.dao.sqlite.DaoFactory;
 import br.udesc.notifymenow.reader.model.entity.Assunto;
 import br.udesc.notifymenow.reader.model.entity.Noticia;
 import br.udesc.notifymenow.reader.model.entity.Site;
+import br.udesc.notifymenow.reader.util.Logger;
 import br.udesc.notifymenow.reader.util.Property;
 import java.util.Calendar;
 import java.util.Date;
@@ -86,6 +87,7 @@ public class NoticiaBo {
             naoEnviado.setEnviado(true);
             dao.salva(naoEnviado);
             msg.send();
+            Logger.info("Enviado e-mail: " + naoEnviado.getTitulo());
         }
     }
 

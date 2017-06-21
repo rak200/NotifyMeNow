@@ -222,8 +222,5 @@ public class Main {
 
         AssuntoDao assuntoDao = DaoFactory.getAssunto();
         assuntoDao.salva(assunto);
-
-        assunto.setId(0);
-        assunto.setNome("presidente");
     }
 }

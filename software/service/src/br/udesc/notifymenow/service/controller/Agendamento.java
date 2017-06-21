@@ -5,6 +5,7 @@
  */
 package br.udesc.notifymenow.service.controller;
 
+import br.udesc.notifymenow.reader.util.Logger;
 import br.udesc.notifymenow.reader.util.Property;
 import java.util.Timer;
 
@@ -15,7 +16,9 @@ import java.util.Timer;
 public class Agendamento extends Timer {
 
     public void iniciar() {
-        schedule(new Tarefa(), 1000, getIntervalo());
+        long intervalo = getIntervalo();
+        Logger.info(intervalo + "");
+        schedule(new Tarefa(), 1000, intervalo);
     }
 
     private long getIntervalo() {
