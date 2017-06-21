@@ -19,14 +19,16 @@ public class ControlPrincipal {
     private ControlCadSite cadSite;
     private ControlFeedNoticias cFeed;
     private ControlHorario cHorario;
-    private ControlCadAssunto cadAssunto;
+    private ControlEmail cEmail;
+    private ControlCadAssunto cAssunto;
 
     public ControlPrincipal() {
         fPrincipal = new JFPrincipal();
         cadSite = new ControlCadSite();
         cFeed = new ControlFeedNoticias();
         cHorario = new ControlHorario();
-        cadAssunto = new ControlCadAssunto();
+        cEmail = new ControlEmail();
+        cAssunto = new ControlCadAssunto();
         inicializaComponentes();
     }
 
@@ -56,6 +58,13 @@ public class ControlPrincipal {
                 cadastrarHorario();
             }
         }); 
+       
+          fPrincipal.mEmail.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                cadastrarEmail();
+            }
+        }); 
                }
 
     private void cadastrarSite() {
@@ -76,7 +85,12 @@ public class ControlPrincipal {
     }
 
     private void cadastrarAssunto() {
-        cadAssunto.executar();
+        cAssunto.executar();
+
+    }
+    
+     private void cadastrarEmail() {
+        cEmail.executar();
 
     }
 
