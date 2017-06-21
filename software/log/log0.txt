@@ -327,3 +327,28 @@ jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: 2 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
 jun 21, 2017 1:36:29 AM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: 3 - titulo 1 - link 1 - conteudo 1 - 2017-00-21 00:00:00 - false
+jun 21, 2017 3:03:12 AM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:586)
+	at java.net.URL.<init>(URL.java:483)
+	at java.net.URL.<init>(URL.java:432)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.getStream(RssSimpleFeedParserAdapter.java:85)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:48)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
+	at br.udesc.notifymenow.reader.Main.testeFeed(Main.java:41)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:31)
+
+jun 21, 2017 3:03:12 AM br.udesc.notifymenow.reader.util.Logger error
+GRAVE: null
+com.ernieyu.feedparser.FeedException: java.lang.IllegalArgumentException: InputStream cannot be null
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:40)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:49)
+	at br.udesc.notifymenow.reader.controller.rss.RssSimpleFeedParserAdapter.retrieve(RssSimpleFeedParserAdapter.java:32)
+	at br.udesc.notifymenow.reader.Main.testeFeed(Main.java:41)
+	at br.udesc.notifymenow.reader.Main.main(Main.java:31)
+Caused by: java.lang.IllegalArgumentException: InputStream cannot be null
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:191)
+	at com.ernieyu.feedparser.impl.DefaultFeedParser.parse(DefaultFeedParser.java:36)
+	... 4 more
+

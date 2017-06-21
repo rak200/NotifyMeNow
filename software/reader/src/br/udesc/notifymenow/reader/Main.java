@@ -5,6 +5,8 @@
  */
 package br.udesc.notifymenow.reader;
 
+import br.udesc.notifymenow.reader.controller.rss.RssReader;
+import br.udesc.notifymenow.reader.controller.rss.RssReaderFactory;
 import br.udesc.notifymenow.reader.model.dao.AssuntoDao;
 import br.udesc.notifymenow.reader.model.dao.NoticiaDao;
 import br.udesc.notifymenow.reader.model.dao.SiteDao;
@@ -14,7 +16,11 @@ import br.udesc.notifymenow.reader.model.entity.Noticia;
 import br.udesc.notifymenow.reader.model.entity.Site;
 import br.udesc.notifymenow.reader.util.Logger;
 import java.net.MalformedURLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
+import java.util.logging.Level;
 
 /**
  *
@@ -26,6 +32,46 @@ public class Main {
 //        testeAssunto();
 //        testeSite();
 //        testeNoticia();
+        testeFeed();
+//        showData("Qua, 21 Jun 2017 02:30:00 -0300");
+//        showData("Wed, 21 Jun 2017 03:03:36 -0300");
+//        showData("21 Jun 2017 01:42:00");
+
+
+    }
+
+    private static void showData(String data) {
+        SimpleDateFormat format;
+        if (data.length() > 25) {
+            if (data.contains("Sun") || data.contains("Mon") || data.contains("Tue") || data.contains("Wed") || data.contains("Thu") || data.contains("Fri") || data.contains("Sat")) {
+                format = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", Locale.ENGLISH);
+            } else {
+                format = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss Z", new Locale("pt","BR"));
+            }
+        } else {
+            format = new SimpleDateFormat("dd MMM yyyy HH:mm:ss", Locale.ENGLISH);
+        }
+        try {
+            System.out.println(format.parse(data));
+        } catch (ParseException ex) {
+            java.util.logging.Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    private static void testeFeed() {
+        RssReader reader = RssReaderFactory.getRssReader();
+        String site;
+        site = "http://www.valor.com.br/rss";
+        site = "http://rss.uol.com.br/feed/economia.xml";
+        site = "http://www.infomoney.com.br/ultimas-noticias/rss";
+
+        for (Noticia noticia : reader.retrieve(site)) {
+            System.out.println(noticia.getTitulo());
+            System.out.println(noticia.getLink());
+            System.out.println(noticia.getDataFormatada());
+            System.out.println(noticia.getConteudo());
+            System.out.println("");
+        }
     }
 
     private static void testeNoticia() {
