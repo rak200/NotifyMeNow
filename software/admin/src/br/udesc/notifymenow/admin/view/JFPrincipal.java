@@ -38,7 +38,6 @@ public class JFPrincipal extends javax.swing.JFrame {
         mCadAssunto = new javax.swing.JMenuItem();
         jMenu4 = new javax.swing.JMenu();
         mHorario = new javax.swing.JMenuItem();
-        mEmail = new javax.swing.JMenuItem();
 
         jMenuItem3.setText("jMenuItem3");
 
@@ -86,11 +85,8 @@ public class JFPrincipal extends javax.swing.JFrame {
 
         jMenu4.setText("Configurações");
 
-        mHorario.setText("Horário de Pesquisa");
+        mHorario.setText("Intervalo de Verificações");
         jMenu4.add(mHorario);
-
-        mEmail.setText("E-Mail");
-        jMenu4.add(mEmail);
 
         jMenuBar1.add(jMenu4);
 
@@ -132,7 +128,6 @@ public class JFPrincipal extends javax.swing.JFrame {
     public java.awt.Panel jdpPrincipal;
     public javax.swing.JMenuItem mCadAssunto;
     public javax.swing.JMenuItem mCadSite;
-    public javax.swing.JMenuItem mEmail;
     public javax.swing.JMenuItem mFeedNoticias;
     public javax.swing.JMenuItem mHorario;
     // End of variables declaration//GEN-END:variables

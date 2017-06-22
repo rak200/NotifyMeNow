@@ -14,8 +14,9 @@ import javax.swing.table.AbstractTableModel;
  * @author Wagner
  */
 public class GrigFeedNoticias extends AbstractTableModel {
-       private ArrayList<Noticia> noticias = new ArrayList<Noticia>();
-    
+
+    private ArrayList<Noticia> noticias = new ArrayList<Noticia>();
+
     @Override
     public int getRowCount() {
         return noticias.size();
@@ -28,7 +29,7 @@ public class GrigFeedNoticias extends AbstractTableModel {
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-       Noticia noticia = noticias.get(rowIndex);
+        Noticia noticia = noticias.get(rowIndex);
         switch (columnIndex) {
             case 0: {
                 return noticia.getTitulo();
@@ -36,18 +37,19 @@ public class GrigFeedNoticias extends AbstractTableModel {
             case 1: {
                 return noticia.getConteudo();
             }
-             case 2: {
+            case 2: {
                 return noticia.getData();
             }
-              case 3: {
+            case 3: {
                 return noticia.getLink();
             }
-          
+
         }
         return null;
-   
+
     }
-      @Override
+
+    @Override
     public String getColumnName(int column) {
         switch (column) {
             case 0: {
@@ -66,8 +68,7 @@ public class GrigFeedNoticias extends AbstractTableModel {
         return null;
     }
 
-    
-     public void limpar() {
+    public void limpar() {
         noticias.clear();
     }
 

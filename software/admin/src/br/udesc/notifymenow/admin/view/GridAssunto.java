@@ -5,7 +5,6 @@
  */
 package br.udesc.notifymenow.admin.view;
 
-
 import br.udesc.notifymenow.reader.model.entity.Assunto;
 import java.util.ArrayList;
 import javax.swing.table.AbstractTableModel;
@@ -14,10 +13,10 @@ import javax.swing.table.AbstractTableModel;
  *
  * @author Wagner
  */
-public class GridAssunto extends AbstractTableModel{
+public class GridAssunto extends AbstractTableModel {
 
-     private ArrayList<Assunto> assuntos = new ArrayList<Assunto>();
-    
+    private ArrayList<Assunto> assuntos = new ArrayList<Assunto>();
+
     @Override
     public int getRowCount() {
         return assuntos.size();
@@ -25,24 +24,22 @@ public class GridAssunto extends AbstractTableModel{
 
     @Override
     public int getColumnCount() {
-       return 1;
+        return 1;
     }
-    
-   
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-      Assunto assunto = assuntos.get(rowIndex);
+        Assunto assunto = assuntos.get(rowIndex);
         switch (columnIndex) {
             case 0: {
                 return assunto.getNome();
             }
-          
+
         }
         return null;
     }
-    
-      @Override
+
+    @Override
     public String getColumnName(int column) {
         switch (column) {
             case 0: {
@@ -51,8 +48,6 @@ public class GridAssunto extends AbstractTableModel{
         }
         return null;
     }
-
-       
 
     public void limpar() {
         assuntos.clear();
@@ -73,6 +68,3 @@ public class GridAssunto extends AbstractTableModel{
     }
 
 }
-
-
-

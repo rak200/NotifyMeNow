@@ -60,15 +60,7 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="mHorario">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Hor&#xe1;rio de Pesquisa"/>
-              </Properties>
-              <AuxValues>
-                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-              </AuxValues>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="mEmail">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="E-Mail"/>
+                <Property name="text" type="java.lang.String" value="Intervalo de Verifica&#xe7;&#xf5;es"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>

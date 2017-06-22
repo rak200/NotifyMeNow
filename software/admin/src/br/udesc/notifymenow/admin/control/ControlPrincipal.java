@@ -14,7 +14,6 @@ import java.awt.event.ActionListener;
  * @author Wagner
  */
 public class ControlPrincipal {
-
     private JFPrincipal fPrincipal;
     private ControlCadSite cadSite;
     private ControlFeedNoticias cFeed;
@@ -36,62 +35,55 @@ public class ControlPrincipal {
         fPrincipal.mFeedNoticias.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               feedNoticia();
-            }  
-         });
-       fPrincipal.mCadSite.addActionListener(new ActionListener() {
+                feedNoticia();
+            }
+        });
+        fPrincipal.mCadSite.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 cadastrarSite();
             }
-        }); 
-       fPrincipal.mCadAssunto.addActionListener(new ActionListener() {
+        });
+        fPrincipal.mCadAssunto.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 cadastrarAssunto();
             }
-        }); 
-       
-       fPrincipal.mHorario.addActionListener(new ActionListener() {
+        });
+
+        fPrincipal.mHorario.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 cadastrarHorario();
             }
-        }); 
-       
-          fPrincipal.mEmail.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                cadastrarEmail();
-            }
-        }); 
-               }
+        });
+
+//          fPrincipal.mEmail.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                cadastrarEmail();
+//            }
+//        }); 
+    }
 
     private void cadastrarSite() {
         cadSite.executar();
-
     }
 
     private void feedNoticia() {
-        
         cFeed.executar();
-
     }
 
-
     private void cadastrarHorario() {
-        
         cHorario.executar();
     }
 
     private void cadastrarAssunto() {
         cAssunto.executar();
-
     }
-    
-     private void cadastrarEmail() {
-        cEmail.executar();
 
+    private void cadastrarEmail() {
+        cEmail.executar();
     }
 
     public void executar() {

@@ -16,7 +16,7 @@ import javax.swing.table.AbstractTableModel;
 public class GridSite extends AbstractTableModel {
 
     private ArrayList<Site> sites = new ArrayList<Site>();
-    
+
     @Override
     public int getRowCount() {
         return sites.size();
@@ -29,7 +29,7 @@ public class GridSite extends AbstractTableModel {
 
     @Override
     public Object getValueAt(int rowIndex, int columnIndex) {
-       Site site = sites.get(rowIndex);
+        Site site = sites.get(rowIndex);
         switch (columnIndex) {
             case 0: {
                 return site.getNome();
@@ -37,12 +37,13 @@ public class GridSite extends AbstractTableModel {
             case 1: {
                 return site.getLink();
             }
-          
+
         }
         return null;
-   
+
     }
-      @Override
+
+    @Override
     public String getColumnName(int column) {
         switch (column) {
             case 0: {
@@ -55,8 +56,7 @@ public class GridSite extends AbstractTableModel {
         return null;
     }
 
-    
-     public void limpar() {
+    public void limpar() {
         sites.clear();
     }
 
@@ -75,4 +75,3 @@ public class GridSite extends AbstractTableModel {
     }
 
 }
-

@@ -1,2 +1,6 @@
 jun 21, 2017 1:04:30 PM br.udesc.notifymenow.reader.util.Logger info
 INFORMAÇÕES: 18000000
+Jun 22, 2017 10:57:25 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: Criando base de dados!
+Jun 22, 2017 10:57:26 AM br.udesc.notifymenow.reader.util.Logger info
+INFO: Base de dados criada!

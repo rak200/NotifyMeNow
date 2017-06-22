@@ -14,47 +14,46 @@ import java.awt.event.ActionListener;
  * @author Wagner
  */
 public class ControlEmail {
-    
+
     JDEmail jdEmail;
-    
-    public ControlEmail(){
-      jdEmail = new JDEmail(null, true);  
-      inicializaComponentes();
+
+    public ControlEmail() {
+        jdEmail = new JDEmail(null, true);
+        inicializaComponentes();
     }
-    
-    public void executar(){
-     
-      jdEmail.setVisible(true);  
-      
+
+    public void executar() {
+        jdEmail.setVisible(true);
     }
-    
-    public void inicializaComponentes(){
+
+    public void inicializaComponentes() {
         jdEmail.btSalvar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               gravar();
+                gravar();
             }
         });
-        
-         jdEmail.btCancelar.addActionListener(new ActionListener() {
+
+        jdEmail.btCancelar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               cancelar();
+                cancelar();
             }
         });
     }
-    
-    public void gravar(){}
-    
-    public void cancelar(){
+
+    public void gravar() {
+    }
+
+    public void cancelar() {
         limpar();
         jdEmail.btCancelar.setEnabled(true);
         jdEmail.setVisible(false);
     }
-    
-     private void limpar() {
-         jdEmail.tfEmail.setText(null);
-        
+
+    private void limpar() {
+        jdEmail.tfEmail.setText(null);
+
     }
-    
+
 }
